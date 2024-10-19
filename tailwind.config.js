@@ -31,7 +31,14 @@ module.exports = {
         'dm-sans':['DM-Sans','sans-serif'],
       },
       maxWidth: {
-        xxl:'1140px',
+        xxl: '1140px',
+        xxxl : '1440px',
+      },
+      backgroundImage: {
+        home:"url('./assets/images/sec-1-bg.webp')"
+      },
+      screens: {
+        lg:'1030px',
       }
     },
   },
