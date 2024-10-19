@@ -29,6 +29,9 @@ module.exports = {
       fontFamily: {
         'poppins':['Poppins','sans-serif'],
         'dm-sans':['DM-Sans','sans-serif'],
+      },
+      maxWidth: {
+        xxl:'1140px',
       }
     },
   },
