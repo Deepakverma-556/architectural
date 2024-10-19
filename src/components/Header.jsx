@@ -4,7 +4,11 @@ const Header = () => {
   return (
       <section>
           <nav>
-              <div className=''></div>
+              <div className='max-w-xxl m-auto px-4'>
+                  <div>
+                      <a href="">General <br/> <span>Project</span></a>
+                  </div>
+              </div>
           </nav>
     </section>
   )
