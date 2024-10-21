@@ -33,7 +33,7 @@ const Make = () => {
                                 </div>
                             </div>
                         </div>
-                        <h2 className='text-2xl font-semibold py-6'>Experience</h2>
+                        <h2 className='text-2xl font-semibold py-6 max-sm:py-4'>Experience</h2>
                         <p className='font-medium text-lg leading-7 text-gray'>Our experience of 25 years of building and making achievements in the world of development</p>
                     </div>
                     <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 max-sm:mt-4'>
