@@ -14,9 +14,9 @@ const Collection = () => {
                 </h2>
                 <div className='flex flex-wrap flex-row -mx-3 pt-9 justify-center'>
                     <div className='w-1/4 px-3'>
-                        <div className='hover:'> 
+                        <div className='relative group/img '> 
                             <img src={Image1} alt="building-image" />
-                            <div className='bg-white py-[22px] px-4 flex gap-7 items-center'>
+                            <div className='bg-white py-4 px-4 flex gap-7 items-center absolute group-hover/img:top-[300px] group-hover/img:left-[6.5px]'>
                                 <div >
                                     <p className='font-semibold text-base leading-6 text-dark'>Treasuru Tower</p>
                                     <p className='font-medium text-xsm leading-4 text-gray'>Project Completed</p>
