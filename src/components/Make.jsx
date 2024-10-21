@@ -36,7 +36,7 @@ const Make = () => {
                         <h2 className='text-2xl font-semibold py-6 max-sm:py-4'>Experience</h2>
                         <p className='font-medium text-lg leading-7 text-gray'>Our experience of 25 years of building and making achievements in the world of development</p>
                     </div>
-                    <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 max-sm:mt-4'>
+                    <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 max-sm:mt-4 max-sm:text-center'>
                         <div className='w-[94px] h-[94px] bg-bluee rounded-full flex items-center justify-center'>
                             <div className='w-[74px] h-[74px] bg-dark-blue rounded-full flex items-center justify-center'>
                                 <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
