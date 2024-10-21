@@ -31,7 +31,8 @@ const Make = () => {
                                 </svg>
                             </div>
                         </div>
-                        <h2>Experience</h2>
+                        <h2 className='text-2xl font-semibold py-6'>Experience</h2>
+                        <p>Our experience of 25 years of building and making achievements in the world of development</p>
                     </div>
                 </div>
             </div>
