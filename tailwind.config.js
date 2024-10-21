@@ -18,7 +18,7 @@ module.exports = {
         xxxxxl: '64px',
       },
       colors: {
-        blue: '#0a72ad',
+        blue: '#0a71ad',
         gray: '#c4c4c4',
         'dark-blue': '#2387c0',
         dark: '#242527',
