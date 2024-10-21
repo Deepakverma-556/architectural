@@ -18,7 +18,7 @@ const Collection = () => {
                             <img src={Image1} alt="building-image" />
                             <div className='bg-white py-[22px] px-4 flex gap-7 items-center'>
                                 <div >
-                                    <p>Treasuru Tower</p>
+                                    <p className='font-semibold text-base leading-6 text-dark'>Treasuru Tower</p>
                                     <p>Project Completed</p>
                                 </div>
                                 <div className='w-[57px] h-[57px] bg-dark-blue'>
