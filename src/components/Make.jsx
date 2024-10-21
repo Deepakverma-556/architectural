@@ -31,6 +31,7 @@ const Make = () => {
                                 </svg>
                             </div>
                         </div>
+                        <h2>Experience</h2>
                     </div>
                 </div>
             </div>
