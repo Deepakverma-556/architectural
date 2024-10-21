@@ -23,7 +23,7 @@ const Make = () => {
                         customer service if you are interested in using our services</p>
                 </div>
                 <div className='flex flex-wrap flex-row -mx-3 pt-16'>
-                    <div className='w-1/4 px-3'>
+                    <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4'>
                         <div className='w-[94px] h-[94px] bg-bluee rounded-full flex items-center justify-center'>
                             <div className='w-[74px] h-[74px] bg-dark-blue rounded-full flex items-center justify-center'>
                                 <svg width="32" height="29" viewBox="0 0 32 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -34,7 +34,7 @@ const Make = () => {
                         <h2 className='text-2xl font-semibold py-6'>Experience</h2>
                         <p className='font-medium text-lg leading-7 text-gray'>Our experience of 25 years of building and making achievements in the world of development</p>
                     </div>
-                    <div className='w-1/4 px-3'>
+                    <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 max-sm:mt-4'>
                         <div className='w-[94px] h-[94px] bg-bluee rounded-full flex items-center justify-center'>
                             <div className='w-[74px] h-[74px] bg-dark-blue rounded-full flex items-center justify-center'>
                                 <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -50,7 +50,7 @@ const Make = () => {
                             company's work in the
                             slightest</p>
                     </div>
-                    <div className='w-1/4 px-3'>
+                    <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 max-md:mt-4'>
                         <div className='w-[94px] h-[94px] bg-bluee rounded-full flex items-center justify-center'>
                             <div className='w-[74px] h-[74px] bg-dark-blue rounded-full flex items-center justify-center'>
                                 <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -63,7 +63,7 @@ const Make = () => {
                         <p className='font-medium text-lg leading-7 text-gray'>We prioritize the quality of
                             our work and finish it on time</p>
                     </div>
-                    <div className='w-1/4 px-3'>
+                    <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 max-lg:mt-4'>
                         <div className='w-[94px] h-[94px] bg-bluee rounded-full flex items-center justify-center'>
                             <div className='w-[74px] h-[74px] bg-dark-blue rounded-full flex items-center justify-center'>
                                 <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
