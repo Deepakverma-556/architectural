@@ -4,8 +4,7 @@ import Header from './components/Header';
 import Make from './components/Make';
 import Story from './components/Story';
 import News from './components/News';
-
-
+import Collection from './components/Collection';
 
 function App() {
   return (
@@ -14,7 +13,8 @@ function App() {
       <Excellent />
       <Make />
       <Story />
-      <News/>
+      <News />
+      <Collection/>
     </>
   );
 }
