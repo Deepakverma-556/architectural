@@ -8,7 +8,12 @@ const Story = () => {
                 <div className='flex flex-wrap flex-row -mx-3 '>
                     <div className='w-1/2 px-3'>
                         <div>
-                            
+                            <h2>
+                                Our Story Who we are
+                            </h2>
+                            <p>
+                                
+                            </p>
                        </div>
                     </div>
                     <div className='w-1/2 px-3'>
