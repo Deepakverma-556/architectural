@@ -32,15 +32,15 @@ const News = () => {
     ];
     return (
         <div className='font-poppins'>
-            <div className='max-w-xxl mx-auto px-4 pt-[60px] pb-10 '>
+            <div className='max-w-xxl mx-auto px-4 pt-[60px] max-sm:pt-10 pb-10 '>
                 <div>
-                    <h2 className='text-dark text-xxxxl leading-xxl font-semibold '>
+                    <h2 className='text-dark text-xxxxl font-semibold leading-xxl max-lg:text-4xl'>
                         News & Update
                     </h2>
                 </div>
                 <div className="flex flex-wrap flex-row -mx-3 pt-9 justify-center">
                     {NEWS.map((obj, index) => (
-                        <div key={index} className="w-full md:w-1/2 lg:w-1/3 px-4">
+                        <div key={index} className="w-full md:w-1/2 lg:w-1/3 px-4 pb-6">
                             <div className="">
                                 <div>
                                     <img src={obj.img} alt={obj.title} className="border-[15px] border-white shadow-[0px_10px_15px_0px] shadow-[#97979714]" />
