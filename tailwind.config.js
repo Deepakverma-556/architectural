@@ -24,7 +24,9 @@ module.exports = {
         dark: '#242527',
         'light-gray': '#f6f6f6',
         light: '#e5e5e5',
-        'dark-gray': '#939393'
+        'dark-gray': '#939393',
+        bluee : "#BDDBEC"
+        
       },
       fontFamily: {
         'poppins':['Poppins','sans-serif'],
