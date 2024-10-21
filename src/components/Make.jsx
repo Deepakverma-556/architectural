@@ -16,7 +16,7 @@ const Make = () => {
                     </svg>
                 </div>
                 <div className="flex items-center justify-between w-full max-lg:flex-col max-lg:text-center pt-8 max-sm:pt-5">
-                    <h2 className="font-semibold text-xxxxl max-w-[304px] leading-xl max-lg:text-4xl max-lg:mx-auto max-lg:max-w-none">What Make Us
+                    <h2 className="text-dark font-semibold text-xxxxl max-w-[304px] leading-xl max-lg:text-4xl max-lg:mx-auto max-lg:max-w-none">What Make Us
                         Different?</h2>
                     <p className="font-medium text-lg leading-7 max-w-xl text-gray max-lg:pt-4 max-lg:text-base max-lg:max-w-full">Check out our best service you can possibly orders in building
                         your company and don't forget to ask via our email or our
@@ -33,7 +33,7 @@ const Make = () => {
                                 </div>
                             </div>
                         </div>
-                        <h2 className='text-2xl font-semibold py-6 max-sm:py-4 max-lg:text-xl'>Experience</h2>
+                        <h2 className='text-2xl font-semibold py-6 max-sm:py-4 max-lg:text-xl text-dark'>Experience</h2>
                         <p className='font-medium text-lg leading-7 text-gray max-lg:text-base'>Our experience of 25 years of building and making achievements in the world of development</p>
                     </div>
                     <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 max-sm:mt-4 max-sm:text-center'>
@@ -47,7 +47,7 @@ const Make = () => {
                                 </div>
                             </div>
                         </div>
-                        <h2 className='text-2xl font-semibold py-6 max-sm:py-4 max-lg:text-xl'>competitive price</h2>
+                        <h2 className='text-2xl font-semibold py-6 max-sm:py-4 max-lg:text-xl text-dark'>competitive price</h2>
                         <p className='font-medium text-lg leading-7 text-gray max-lg:text-base'>The prices we offer you are
                             very competitive without
                             reducing the quality of the
@@ -65,7 +65,7 @@ const Make = () => {
                                 </div>
                             </div>
                         </div>
-                        <h2 className='text-2xl font-semibold py-6 max-sm:py-4 max-lg:text-xl'>On Time</h2>
+                        <h2 className='text-2xl font-semibold py-6 max-sm:py-4 max-lg:text-xl text-dark'>On Time</h2>
                         <p className='font-medium text-lg leading-7 text-gray max-lg:text-base'>We prioritize the quality of
                             our work and finish it on time</p>
                     </div>
@@ -80,7 +80,7 @@ const Make = () => {
                                 </div>
                             </div>
                         </div>
-                        <h2 className='text-2xl font-semibold py-6 max-sm:py-4 max-lg:text-xl'>Best Materials</h2>
+                        <h2 className='text-2xl font-semibold py-6 max-sm:py-4 max-lg:text-xl text-dark'>Best Materials</h2>
                         <p className='font-medium text-lg leading-7 text-gray max-lg:text-base'>The material determines the
                             building itself so we
                             recommend that you use

@@ -32,26 +32,26 @@ const News = () => {
     ];
     return (
         <div className='font-poppins'>
-            <div className='max-w-xxl mx-auto px-4 pt-[60px] '>
+            <div className='max-w-xxl mx-auto px-4 pt-[60px] pb-10 '>
                 <div>
                     <h2 className='text-dark text-xxxxl leading-xxl font-semibold '>
                         News & Update
                     </h2>
                 </div>
-                <div className="flex flex-wrap flex-row -mx-3 pt-20 max-lg:pt-12 max-sm:pt-8 max-sm:pb-10 pb-[71px] justify-center">
+                <div className="flex flex-wrap flex-row -mx-3 pt-9 justify-center">
                     {NEWS.map((obj, index) => (
-                        <div key={index} className="w-full md:w-1/2 lg:w-1/3 px-3">
+                        <div key={index} className="w-full md:w-1/2 lg:w-1/3 px-4">
                             <div className="">
                                 <div>
                                     <img src={obj.img} alt={obj.title} className="border-[15px] border-white shadow-[0px_10px_15px_0px] shadow-[#97979714]" />
                                 </div>
-                                <div className="flex gap-4 items-center pr-10">
+                                <div className="flex gap-4 items-center pr-10 py-4">
                                     <p className="flex flex-col items-center text-xxxl  text-dark font-semibold">
                                         {obj.date} <span className="text-sm font-semibold">{obj.title}</span>
                                     </p>
                                     <p className="font-semibold text-base leading-6 text-dark">{obj.title2}</p>
                                 </div>
-                                <p className="text-lg leading-7 text-gray max-lg:text-base">{obj.para} <span className="text-blue">{obj.span}</span></p>
+                                <p className="text-lg leading-7 text-gray max-lg:text-base pr-5">{obj.para} <span className="text-blue cursor-pointer">{obj.span}</span></p>
                             </div>
                         </div>
                     ))}

@@ -8,7 +8,7 @@ const Story = () => {
                 <div className='flex flex-wrap flex-row -mx-3 '>
                     <div className='w-full lg:w-1/2 px-4 '>
                         <div className='max-lg:text-center'>
-                            <h2 className='text-xxxxl font-semibold leading-xxl max-w-[275px] max-lg:mx-auto max-lg:max-w-none max-lg:text-4xl'>
+                            <h2 className='text-dark text-xxxxl font-semibold leading-xxl max-w-[275px] max-lg:mx-auto max-lg:max-w-none max-lg:text-4xl'>
                                 Our Story Who we are
                             </h2>
                             <p className='text-lg font-medium leading-7 text-gray pt-6 max-sm:pt-4 max-lg:text-base'>

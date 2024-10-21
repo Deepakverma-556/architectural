@@ -25,7 +25,7 @@ const Excellent = () => {
         <div className="bg-light-gray font-poppins">
             <div className="max-w-xxl mx-auto px-4 pt-20 max-sm:pt-10">
                 <div className="flex items-center justify-between w-full max-lg:flex-col max-lg:text-center">
-                    <h2 className="font-semibold text-xxxxl max-w-[304px] leading-xl max-lg:text-4xl max-lg:mx-auto max-lg:max-w-none">Our Excellent
+                    <h2 className="text-dark font-semibold text-xxxxl max-w-[304px] leading-xl max-lg:text-4xl max-lg:mx-auto max-lg:max-w-none">Our Excellent
                         Services</h2>
                     <p className="font-medium text-lg leading-7 max-w-xl text-gray max-lg:pt-4 max-lg:text-base max-lg:max-w-full">Check out our best service you can possibly orders in building
                         your company and don't forget to ask via our email or our
@@ -38,7 +38,7 @@ const Excellent = () => {
                                 <div>
                                     <img src={obj.img} alt={obj.title} className="border-[15px] border-white" />
                                 </div>
-                                <h3 className="font-semibold text-xxxl leading-10 py-9 max-sm:py-5 max-lg:text-2xl">
+                                <h3 className="font-semibold text-xxxl leading-10 py-9 max-sm:py-5 max-lg:text-2xl text-dark">
                                     {obj.title}
                                 </h3>
                                 <p className="text-lg leading-7 text-gray max-lg:text-base">{obj.para}</p>
