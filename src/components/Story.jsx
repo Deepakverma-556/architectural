@@ -1,11 +1,19 @@
 import React from 'react'
+import Image1 from '../assets/images/sec-6-img.webp'
 
 const Story = () => {
     return (
         <div>
             <div className='max-w-xxl mx-auto px-4 pt-16'>
-                <div className='flex flex-wrap flex '>
-
+                <div className='flex flex-wrap flex-row -mx-3 '>
+                    <div className='w-1/2 px-3'>
+                        <div>
+                            
+                       </div>
+                    </div>
+                    <div className='w-1/2 px-3'>
+                        <img src={Image1} alt="building-image" />
+                    </div>
                 </div>
             </div>
         </div>
