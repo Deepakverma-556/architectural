@@ -37,7 +37,8 @@ module.exports = {
         xxxl : '1440px',
       },
       backgroundImage: {
-        home:"url('./assets/images/sec-1-bg.webp')"
+        home: "url('./assets/images/sec-1-bg.webp')",
+        build: "url('./assets/images/sec-8-1-img (1).webp')"
       },
       screens: {
         lg:'1030px',
