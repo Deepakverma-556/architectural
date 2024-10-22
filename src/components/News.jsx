@@ -40,18 +40,18 @@ const News = () => {
                 </div>
                 <div className="flex flex-wrap flex-row -mx-3 pt-9 justify-center">
                     {NEWS.map((obj, index) => (
-                        <div key={index} className="w-full md:w-1/2 lg:w-1/3 px-4 pb-6">
+                        <div key={index} className="w-full sm:w-1/2 lg:w-1/3 px-4 pt-6">
                             <div className="">
                                 <div>
                                     <img src={obj.img} alt={obj.title} className="border-[15px] border-white shadow-[0px_10px_15px_0px] shadow-[#97979714]" />
                                 </div>
-                                <div className="flex gap-4 items-center pr-10 py-4">
-                                    <p className="flex flex-col items-center text-xxxl  text-dark font-semibold">
+                                <div className="flex gap-4 items-center pr-10 py-4 max-sm:py-2">
+                                    <p className="flex flex-col items-center text-xxxl text-dark font-semibold">
                                         {obj.date} <span className="text-sm font-semibold">{obj.title}</span>
                                     </p>
                                     <p className="font-semibold text-base leading-6 text-dark">{obj.title2}</p>
                                 </div>
-                                <p className="text-lg leading-7 text-gray max-lg:text-base pr-5">{obj.para} <span className="text-blue cursor-pointer">{obj.span}</span></p>
+                                <p className="text-lg leading-7 text-gray max-lg:text-base pr-5 max-sm:text-center">{obj.para} <span className="text-blue cursor-pointer">{obj.span}</span></p>
                             </div>
                         </div>
                     ))}

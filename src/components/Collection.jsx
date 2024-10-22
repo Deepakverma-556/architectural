@@ -5,7 +5,7 @@ import Image3 from '../assets/images/sec-8-3-img.webp';
 import Image4 from '../assets/images/sec-8-4-img.webp'
 
 const Collection = () => {
-    const projects = [
+    const PROJECTS = [
         {
             image: Image1,
             title: 'Treasuru Tower',
@@ -35,14 +35,14 @@ const Collection = () => {
                     best project
                 </h2>
                 <div className='flex flex-wrap flex-row -mx-3 pt-9 justify-center'>
-                    {projects.map(project => (
-                        <div key={project.id} className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3 pt-6'>
+                    {PROJECTS.map((obj , i) => (
+                        <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3 pt-6'>
                             <div className='relative group overflow-y-hidden'>
-                                <img src={project.image} alt="building-image" className='' />
+                                <img src={obj.image} alt="building-image" className='' />
                                 <div className='bg-white py-4 px-4 flex gap-7 max-lg:px-2 max-lg:py-2  items-center justify-center absolute bottom-0 group-hover:bottom-2 left-2 transition-transform duration-300 transform group-hover:translate-y-0 translate-y-[100%]'>
                                     <div>
-                                        <p className='font-semibold text-base leading-6 text-dark max-lg:text-sm'>{project.title}</p>
-                                        <p className='font-medium text-xsm leading-4 text-gray'>{project.status}</p>
+                                        <p className='font-semibold text-base leading-6 text-dark max-lg:text-sm'>{obj.title}</p>
+                                        <p className='font-medium text-xsm leading-4 text-gray'>{obj.status}</p>
                                     </div>
                                     <div className='w-[57px] h-[57px] bg-dark-blue flex items-center justify-center'>
                                         <svg width="25" height="17" viewBox="0 0 25 17" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -33,9 +33,9 @@ const Excellent = () => {
                         Check out our best service you can possibly order in building your company and don't forget to ask via our email or our customer service if you are interested in using our services.
                     </p>
                 </div>
-                <div className="flex flex-wrap flex-row -mx-3 pt-20 max-lg:pt-12 max-sm:pt-8 max-sm:pb-10 pb-[71px] justify-center">
+                <div className="flex flex-wrap flex-row -mx-3 pt-20 max-lg:pt-12 max-sm:pt-8 max-sm:pb-0 pb-[71px] justify-center">
                     {CARDS.map((obj, index) => (
-                        <div key={index} className="w-full md:w-1/2 lg:w-1/3 px-6 pb-6">
+                        <div key={index} className="w-full sm:w-1/2 lg:w-1/3 px-6 pb-10 max-sm:text-center">
                             <div className="group">
                                 <div className="overflow-hidden">
                                     <img
