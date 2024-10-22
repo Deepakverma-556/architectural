@@ -3,7 +3,7 @@ import React from 'react'
 const Make = () => {
     return (
         <div className='font-poppins'>
-            <div className='max-w-xxl mx-auto px-4 pt-[74px] max-sm:pt-10 pb-16 max-sm:pb-10'>
+            <div className='max-w-xxl mx-auto px-4 pt-[74px] max-lg:pt-14 max-sm:pt-10 pb-16 max-lg:pb-14 max-sm:pb-10'>
                 <div className='max-lg:flex max-lg:justify-center'>
                     <svg width="90" height="9" viewBox="0 0 90 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="90" height="9" fill="url(#paint0_linear_14_163)" />
@@ -22,9 +22,9 @@ const Make = () => {
                         your company and don't forget to ask via our email or our
                         customer service if you are interested in using our services</p>
                 </div>
-                <div className='flex flex-wrap flex-row -mx-3 pt-16 max-sm:pt-8 justify-center'>
-                    <div className='w-full md:w-1/2 lg:w-1/4 px-4 max-md:text-center'>
-                        <div className='max-md:flex max-md:justify-center'>
+                <div className='flex flex-wrap flex-row -mx-3 pt-16 max-lg:pt-8 max-sm:pt-8 justify-center'>
+                    <div className='w-full md:w-1/2 lg:w-1/4 px-4 max-lg:text-center hover:scale-[1.02] transition-all duration-300'>
+                        <div className='max-lg:flex max-lg:justify-center'>
                             <div className='w-[94px] h-[94px] bg-bluee rounded-full flex items-center justify-center '>
                                 <div className='w-[74px] h-[74px] bg-dark-blue rounded-full flex items-center justify-center'>
                                     <svg width="32" height="29" viewBox="0 0 32 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -36,9 +36,9 @@ const Make = () => {
                         <h2 className='text-2xl font-semibold py-6 max-sm:py-4 max-lg:text-xl text-dark'>Experience</h2>
                         <p className='font-medium text-lg leading-7 text-gray max-lg:text-base'>Our experience of 25 years of building and making achievements in the world of development</p>
                     </div>
-                    <div className='w-full md:w-1/2 lg:w-1/4 px-4 max-md:text-center max-md:mt-8'>
-                        <div className='max-md:flex max-md:justify-center'>
-                            <div className='w-[94px] h-[94px] bg-bluee rounded-full flex items-center justify-center'>
+                    <div className='w-full md:w-1/2 lg:w-1/4 px-4 max-lg:text-center max-md:mt-8 hover:scale-[1.02] transition-all duration-300 '>
+                        <div className='max-lg:flex max-lg:justify-center'>
+                            <div className='w-[94px] h-[94px] bg-bluee rounded-full flex items-center justify-center '>
                                 <div className='w-[74px] h-[74px] bg-dark-blue rounded-full flex items-center justify-center'>
                                     <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M29.7529 3.28125H21.3516C21.0903 3.28106 20.8397 3.38428 20.6543 3.56836L3.8584 20.3643C3.49064 20.7338 3.28418 21.234 3.28418 21.7554C3.28418 22.2768 3.49064 22.7769 3.8584 23.1465L11.8565 31.1445C12.226 31.5123 12.7262 31.7188 13.2476 31.7188C13.7689 31.7188 14.2691 31.5123 14.6387 31.1445L31.4277 14.3555C31.6118 14.1701 31.715 13.9194 31.7149 13.6582V5.25C31.7161 4.99168 31.6663 4.73567 31.5682 4.49668C31.4702 4.2577 31.3258 4.04047 31.1435 3.85749C30.9611 3.67451 30.7444 3.5294 30.5057 3.43051C30.2671 3.33161 30.0113 3.28089 29.7529 3.28125V3.28125Z" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
@@ -52,11 +52,12 @@ const Make = () => {
                             very competitive without
                             reducing the quality of the
                             company's work in the
-                            slightest</p>
+                            slightest
+                        </p>
                     </div>
-                    <div className='w-full md:w-1/2 lg:w-1/4 px-4 max-md:text-center max-lg:mt-8'>
-                        <div className='max-md:flex max-md:justify-center'>
-                            <div className='w-[94px] h-[94px] bg-bluee rounded-full flex items-center justify-center'>
+                    <div className='w-full md:w-1/2 lg:w-1/4 px-4 max-lg:text-center max-lg:mt-8 hover:scale-[1.02] transition-all duration-300 '>
+                        <div className='max-lg:flex max-lg:justify-center'>
+                            <div className='w-[94px] h-[94px] bg-bluee rounded-full flex items-center justify-center '>
                                 <div className='w-[74px] h-[74px] bg-dark-blue rounded-full flex items-center justify-center'>
                                     <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M40.6053 17.7031H29.6053C29.4162 17.7031 29.2615 17.8578 29.2615 18.0469V20.1094C29.2615 20.2984 29.4162 20.4531 29.6053 20.4531H40.6053C40.7943 20.4531 40.949 20.2984 40.949 20.1094V18.0469C40.949 17.8578 40.7943 17.7031 40.6053 17.7031ZM34.8475 23.5469H29.6053C29.4162 23.5469 29.2615 23.7016 29.2615 23.8906V25.9531C29.2615 26.1422 29.4162 26.2969 29.6053 26.2969H34.8475C35.0365 26.2969 35.1912 26.1422 35.1912 25.9531V23.8906C35.1912 23.7016 35.0365 23.5469 34.8475 23.5469ZM20.5088 13.8574H18.6482C18.3818 13.8574 18.167 14.0723 18.167 14.3387V24.9949C18.167 25.1496 18.24 25.2914 18.3646 25.3816L24.7627 30.048C24.9775 30.2027 25.2783 30.1598 25.433 29.9449L26.5373 28.4367V28.4324C26.692 28.2176 26.6447 27.9168 26.4299 27.7621L20.9857 23.8262V14.3387C20.99 14.0723 20.7709 13.8574 20.5088 13.8574Z" fill="white" />
@@ -67,10 +68,11 @@ const Make = () => {
                         </div>
                         <h2 className='text-2xl font-semibold py-6 max-sm:py-4 max-lg:text-xl text-dark'>On Time</h2>
                         <p className='font-medium text-lg leading-7 text-gray max-lg:text-base'>We prioritize the quality of
-                            our work and finish it on time</p>
+                            our work and finish it on time
+                        </p>
                     </div>
-                    <div className='w-full md:w-1/2 lg:w-1/4 px-4 max-md:text-center max-lg:mt-8'>
-                        <div className='max-md:flex max-md:justify-center'>
+                    <div className='w-full md:w-1/2 lg:w-1/4 px-4 max-lg:text-center max-lg:mt-8 hover:scale-[1.02] transition-all duration-300 '>
+                        <div className='max-lg:flex max-lg:justify-center'>
                             <div className='w-[94px] h-[94px] bg-bluee rounded-full flex items-center justify-center'>
                                 <div className='w-[74px] h-[74px] bg-dark-blue rounded-full flex items-center justify-center'>
                                     <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -87,7 +89,7 @@ const Make = () => {
                             the best & quality materials
                             in its class.</p>
                     </div>
-                </div> 
+                </div>
             </div>
         </div>
     )

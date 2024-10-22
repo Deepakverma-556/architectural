@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Image1 from "../assets/images/sec-7-1-img.webp";
+import Image1 from "../assets/images/sec-7-1-img (1).webp";
 import Image2 from "../assets/images/sec-7-2-img.webp";
 import Image3 from "../assets/images/sec-7-3-img.webp";
 
@@ -38,12 +38,12 @@ const News = () => {
                         News & Update
                     </h2>
                 </div>
-                <div className="flex flex-wrap flex-row -mx-3 pt-9 justify-center">
+                <div className="flex flex-wrap flex-row -mx-3 pt-9 max-sm:pt-5 justify-center">
                     {NEWS.map((obj, index) => (
                         <div key={index} className="w-full sm:w-1/2 lg:w-1/3 px-4 pt-6">
-                            <div className="">
-                                <div>
-                                    <img src={obj.img} alt={obj.title} className="border-[15px] border-white shadow-[0px_10px_15px_0px] shadow-[#97979714]" />
+                            <div className="group">
+                                <div className="overflow-hidden border-[15px] border-white shadow-[0px_10px_15px_0px] shadow-[#97979714]"> 
+                                    <img src={obj.img} alt={obj.title} className="transition-transform duration-300 group-hover:scale-[1.03] object-cover" />
                                 </div>
                                 <div className="flex gap-4 items-center pr-10 py-4 max-sm:py-2">
                                     <p className="flex flex-col items-center text-xxxl text-dark font-semibold">

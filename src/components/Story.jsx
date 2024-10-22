@@ -24,8 +24,8 @@ const Story = () => {
                         </div>
                     </div>
                     <div className='w-full lg:w-1/2 px-4 max-lg:pt-8'>
-                        <div className='max-lg:flex max-lg:justify-center'>
-                            <img src={Image1} alt="building-image" className="border-[15px] border-white shadow-[0px_10px_15px_0px] shadow-[#9797971F] max-lg:w-[500px]" />
+                        <div className='max-lg:flex max-lg:justify-center border-[15px] border-white shadow-[0px_10px_15px_0px] shadow-[#9797971F] overflow-hidden group'>
+                            <img src={Image1} alt="building-image" className=" max-lg:w-[500px] transition-transform duration-300 group-hover:scale-[1.03]" />
                         </div>
                     </div>
                 </div>
