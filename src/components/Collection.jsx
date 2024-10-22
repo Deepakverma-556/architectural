@@ -27,7 +27,6 @@ const Collection = () => {
             status: 'Project Ongoing',
         },
     ];
-
     return (
         <div className='font-poppins'>
             <div className='max-w-xxl mx-auto px-4 pt-[55px] max-sm:pt-10 pb-20'>
