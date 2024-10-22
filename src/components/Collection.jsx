@@ -13,17 +13,17 @@ const Collection = () => {
         },
         {
             image: Image2,
-            title: 'Skyline Heights',
+            title: 'Treasuru Tower',
             status: 'Project Ongoing',
         },
         {
             image: Image3,
-            title: 'Green Valley',
+            title: 'Treasuru Tower',
             status: 'Project Completed',
         },
         {
             image: Image4,
-            title: 'Lakeside Flat',
+            title: 'Treasuru Tower',
             status: 'Project Ongoing',
         },
     ];
@@ -39,7 +39,7 @@ const Collection = () => {
                         <div key={project.id} className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3 pb-6'>
                             <div className='relative group overflow-y-hidden'>
                                 <img src={project.image} alt="building-image" className='' />
-                                <div className='bg-white py-4 px-4 flex gap-7  items-center justify-center absolute bottom-0 group-hover:bottom-2 left-2 transition-transform duration-300 transform group-hover:translate-y-0 translate-y-[100%]'>
+                                <div className='bg-white py-4 px-4 flex gap-7 max-lg:px-2 max-lg:py-2  items-center justify-center absolute bottom-0 group-hover:bottom-2 left-2 transition-transform duration-300 transform group-hover:translate-y-0 translate-y-[100%]'>
                                     <div>
                                         <p className='font-semibold text-base leading-6 text-dark max-lg:text-sm'>{project.title}</p>
                                         <p className='font-medium text-xsm leading-4 text-gray'>{project.status}</p>

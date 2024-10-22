@@ -5,6 +5,7 @@ import Make from './components/Make';
 import Story from './components/Story';
 import News from './components/News';
 import Collection from './components/Collection';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <Make />
       <Story />
       <News />
-      <Collection/>
+      <Collection />
+      <Footer />
     </>
   );
 }
