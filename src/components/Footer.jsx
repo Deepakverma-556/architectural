@@ -7,10 +7,12 @@ const Footer = () => {
                 <div className='flex flex-wrap flex-row -mx-3'>
                     <div className='w-1/2 px-3'>
                         <div>
-                            <p className='font-poppins'>General Project</p>
-                            <p className='font-dm-sans'>is a general contractor company based in Jakarta. More than 25 years of experience in building and carving out Indonesia's development.</p>
+                            <p className='font-poppins text-white font-semibold text-base leading-6'>General Project</p>
+                            <p className='font-dm-sans text-white font-normal text-base leading-7'>is a general contractor company based in Jakarta. More than 25 years of experience in building and carving out Indonesia's development.</p>
                             <div>
+                                <div className='w-[42px] h-[40px] bg-dark-blue rounded-full'>
 
+                                </div>
                             </div>
                         </div>
                     </div>
