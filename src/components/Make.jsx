@@ -3,7 +3,7 @@ import React from 'react'
 const Make = () => {
     return (
         <div className='font-poppins'>
-            <div className='max-w-xxl mx-auto px-4 pt-[74px] max-lg:pt-14 max-sm:pt-10 pb-16 max-lg:pb-14 max-sm:pb-10'>
+            <div className='max-w-xxl mx-auto px-4 pt-[74px] max-lg:pt-12 max-sm:pt-10 pb-16 max-lg:pb-12 max-sm:pb-10 '>
                 <div className='max-lg:flex max-lg:justify-center'>
                     <svg width="90" height="9" viewBox="0 0 90 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="90" height="9" fill="url(#paint0_linear_14_163)" />

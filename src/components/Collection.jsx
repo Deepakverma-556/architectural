@@ -36,13 +36,13 @@ const Collection = () => {
                 </h2>
                 <div className='flex flex-wrap flex-row -mx-3 pt-9 justify-center'>
                     {PROJECTS.map((obj , i) => (
-                        <div className='w-full md:w-1/2 lg:w-1/4 px-3 pt-6' key={i}>
+                        <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3 pt-6 max-sm:pt-5' key={i}>
                             <div className='relative group overflow-y-hidden'>
-                                <img src={obj.image} alt="building-image" className='w-full h-auto object-cover' />
-                                <div className='bg-white py-4 px-4 flex gap-5 items-center justify-center absolute bottom-0 group-hover:bottom-2 left-2 transition-transform duration-300 transform group-hover:translate-y-0 translate-y-[100%]'>
+                                <img src={obj.image} alt="building-image" className='max-lg:h-[420px] max-sm:w-[250px] max-sm:h-[350px] mx-auto w-full object-cover' />
+                                <div className='bg-white  py-4 px-4 flex gap-5 items-center justify-center absolute group-hover:bottom-2 left-1/2 -translate-x-1/2 transition-all duration-300 transform group-hover:translate-y-0 translate-y-[100%]'>
                                     <div>
-                                        <p className='font-semibold text-base leading-6 text-dark max-lg:text-sm'>{obj.title}</p>
-                                        <p className='font-medium text-xsm leading-4 text-gray'>{obj.status}</p>
+                                        <p className='font-semibold text-base leading-6 text-dark max-lg:text-sm text-nowrap'>{obj.title}</p>
+                                        <p className='font-medium text-xsm leading-4 text-gray text-nowrap'>{obj.status}</p>
                                     </div>
                                     <div className='w-[57px] h-[57px] bg-dark-blue flex items-center justify-center'>
                                         <svg width="25" height="17" viewBox="0 0 25 17" fill="none" xmlns="http://www.w3.org/2000/svg">
