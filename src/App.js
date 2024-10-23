@@ -8,7 +8,6 @@ import Story from './components/Story';
 import News from './components/News';
 import Collection from './components/Collection';
 import Footer from './components/Footer';
-import MySlider from './components/MySlider';
 
 function App() {
   return (
@@ -21,7 +20,6 @@ function App() {
       <Story />
       <News />
       <Collection />
-      <MySlider/>
       <Footer />
     </>
   );

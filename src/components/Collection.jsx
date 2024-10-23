@@ -29,7 +29,7 @@ const Collection = () => {
     ];
     return (
         <div className='font-poppins'>
-            <div className='max-w-xxl mx-auto px-4 pt-[55px] max-sm:pt-10 pb-20 max-sm:pb-10'>
+            <div className='max-w-xxl mx-auto px-4 pt-[55px] max-sm:pt-10 pb-[378px]'>
                 <h2 className='text-dark text-xxxxl font-semibold leading-xxl max-w-[326px] max-lg:mx-auto max-lg:max-w-none max-lg:text-4xl max-lg:text-center'>
                     Our collection
                     best project
