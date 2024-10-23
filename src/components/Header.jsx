@@ -192,7 +192,7 @@ const Header = () => {
             building owner chose us over other contractors in Jakarta, because
             our work is different
           </p>
-          <button className="py-5 px-10 font-semibold text-base leading-6 text-white bg-gradient-to-r from-[#60bbee] to-blue shadow-[0px_10px_15px_0px] shadow-[#01739933]">
+          <button className="py-5 px-10 font-semibold text-base leading-6 text-white bg-gradient-to-r from-[#60bbee] to-blue shadow-[0px_10px_15px_0px] shadow-[#01739933] transition-all duration-300 hover:shadow-[#23a3eb]">
             Discover More
           </button>
         </div>
