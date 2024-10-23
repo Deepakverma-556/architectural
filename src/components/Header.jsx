@@ -229,7 +229,7 @@ const Header = () => {
       <div className="max-w-xxl mx-auto px-4">
         <div className="flex flex-wrap justify-between relative max-lg:hidden">
           <div className="w-full lg:w-4/12 ">
-            <div className="flex gap-12 pb-16 ">
+            <div className="flex gap-12 pb-14 ">
               <div>
                 <p className="font-bold text-4xl leading-xl text-white">
                   300<span className="text-dark-blue">+</span>
