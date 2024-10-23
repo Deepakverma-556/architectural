@@ -27,18 +27,19 @@ module.exports = {
         'dark-gray': '#939393'
       },
       fontFamily: {
-        'poppins':['Poppins','sans-serif'],
-        'dm-sans':['DM-Sans','sans-serif'],
+        'poppins': ['Poppins', 'sans-serif'],
+        'dm-sans': ['DM-Sans', 'sans-serif'],
       },
       maxWidth: {
         xxl: '1140px',
-        xxxl : '1440px',
+        xxxl: '1440px',
       },
       backgroundImage: {
-        home:"url('./assets/images/sec-1-bg.webp')"
+        home: "url('./assets/images/sec-1-bg.webp')"
       },
       screens: {
-        lg:'1030px',
+        lg: '1030px',
+        xl: '1240px',
       }
     },
   },
