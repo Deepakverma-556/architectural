@@ -45,7 +45,7 @@ const News = () => {
                                 <div className="overflow-hidden border-[15px] border-white shadow-[0px_10px_15px_0px] shadow-[#97979714] w-full object-cover">
                                     <img src={obj.img} alt={obj.title} className="object-cover h-[257px] max-lg:h-[300px] max-md:h-[257px] w-full" />
                                 </div>
-                                <div className="flex gap-4 items-center pr-10 py-4 max-sm:py-2 max-sm:gap-1">
+                                <div className="flex gap-4 items-center pr-10 py-4 max-sm:py-2 max-sm:gap-2">
                                     <p className="flex flex-col items-center text-xxxl text-dark font-semibold max-sm:text-lg">
                                         {obj.date} <span className="text-sm font-semibold">{obj.title}</span>
                                     </p>
