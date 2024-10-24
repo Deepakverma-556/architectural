@@ -28,7 +28,7 @@ const Footer = () => {
             <div className='bg-gradient-to-r from-[#474747] to-[#222222] shadow-[0px_10px_15px_0px] shadow-[#9797971F] relative'>
                 <div className="absolute -top-1/3 left-1/2 -translate-x-1/2">
                     
-                        <div className="max-w-[1064px] max-[1100px]:max-w-4xl max-[920px]:max-w-3xl max-md:max-w-2xl max-[710px]:max-w-xl max-sm:max-w-[500px] max-[500px]:max-w-[400px] max-[400px]:max-w-[340px] w-full mx-auto bg-gradient-to-r from-[#474747] to-[#222222] pt-16 px-16 pb-14 max-sm:px-4 max-sm:pt-8 max-sm:pb-10 max-lg:pt-8 max-lg:px-10 relative">
+                    <div className="max-w-[1064px] max-[1100px]:max-w-4xl max-[920px]:max-w-3xl max-md:max-w-2xl max-[710px]:max-w-xl max-sm:max-w-[500px] max-[500px]:max-w-[400px] max-[400px]:max-w-[340px] w-full mx-auto bg-gradient-to-r from-[#474747] to-[#222222] pt-16 px-16 pb-14 max-sm:px-4 max-sm:pt-8 max-sm:pb-10 max-lg:pt-8 max-lg:px-10 relative shadow-[0px_10px_15px_0px] shadow-[#00000014]">
                             <Slider ref={sliderRef} {...settings}>
                                 <div>
                                     <div className="flex items-start max-lg:flex-col max-lg:justify-center max-lg:items-center">
