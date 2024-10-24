@@ -119,7 +119,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className='max-w-xxl mx-auto px-4 pb-20 pt-[420px] max-lg:pb-14 max-sm:pb-10 max-md:pt-80 max-sm:pt-[320px]'>
+                <div className='max-w-xxl mx-auto px-4 pb-20 pt-[420px] max-lg:pt-[450px] max-lg:pb-14 max-sm:pb-10 max-md:pt-80 max-sm:pt-[300px]'>
                     <div className='flex flex-wrap flex-row -mx-3 justify-between'>
                         <div className='w-full md:w-6/12 px-4 max-sm:text-center'>
                             <div>
