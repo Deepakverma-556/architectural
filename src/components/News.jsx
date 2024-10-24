@@ -51,7 +51,7 @@ const News = () => {
                                     </p>
                                     <p className="font-semibold text-base leading-6 text-dark">{obj.title2}</p>
                                 </div>
-                                <p className="text-lg leading-7 text-gray max-lg:text-base pr-5 ">{obj.para} <span className="text-blue cursor-pointer">{obj.span}</span></p>
+                                <p className="text-lg leading-7 text-gray max-lg:text-base pr-5 ">{obj.para} <span className="text-blue cursor-pointer hover:text-black transtion-all duration-300">{obj.span}</span></p>
                             </div>
                         </div>
                     ))}
