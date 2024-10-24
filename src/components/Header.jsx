@@ -5,7 +5,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   useEffect(() => {
     const handleOverflow = () => {
-      if (open && window.innerWidth < 1024) {
+      if (open && window.innerWidth < 1030) {
         document.body.classList.add("overflow-hidden");
       } else {
         document.body.classList.remove("overflow-hidden");
@@ -18,7 +18,7 @@ const Header = () => {
     };
   }, [open]);
   return (
-    <section id="header" className="bg-gradient-to-r from-[#474747] to-[#222222] font-poppins pt-12 max-lg:pt-8 max-md:pt-6 max-sm:pt-3 min-h-screen overflow-hidden">
+    <section className="bg-gradient-to-r from-[#474747] to-[#222222] font-poppins pt-12 max-lg:pt-8 max-md:pt-6 max-sm:pt-3 min-h-screen overflow-hidden">
       <nav>
         <div className="max-w-xxl mx-auto px-4 pb-9 max-lg:pb-6">
           <div className="w-full flex justify-between items-center">
@@ -33,65 +33,65 @@ const Header = () => {
             <ul className="flex items-center gap-14 max-lg:hidden">
               <li>
                 <a
-                  href="#"
+                  href="#works"
                   className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   Home
-                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#term"
                   className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   Services
-                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#about"
                   className="font-medium text-lg leading-7 relative group text-gray-50 text-nowrap"
                 >
                   Find a Team
-                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#privacy"
                   className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   About
-                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#license"
                   className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   Articals
-                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#documentation"
                   className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   Portfolio
-                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#about"
                   className="font-medium text-lg leading-7 relative group text-gray-50 text-nowrap"
                 >
                   Contact-us
-                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
             </ul>
@@ -109,12 +109,12 @@ const Header = () => {
             <ul className="flex flex-col justify-center items-center gap-14 max-lg:gap-8">
               <li>
                 <a
-                  onClick={() => setOpen(open)}
+                  onClick={() => setOpen(false)}
                   href="#"
                   className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   Home
-                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
@@ -124,7 +124,7 @@ const Header = () => {
                   className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   Services
-                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
@@ -134,7 +134,7 @@ const Header = () => {
                   className="font-medium text-lg leading-7 relative group text-gray-50 text-nowrap"
                 >
                   Find a Team
-                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
@@ -144,7 +144,7 @@ const Header = () => {
                   className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   About
-                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
@@ -154,7 +154,7 @@ const Header = () => {
                   className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   Articals
-                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
@@ -164,7 +164,7 @@ const Header = () => {
                   className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   Portfolio
-                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
@@ -174,7 +174,7 @@ const Header = () => {
                   className="font-medium text-lg leading-7 relative group text-gray-50 text-nowrap"
                 >
                   Contact-us
-                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
             </ul>
@@ -187,7 +187,7 @@ const Header = () => {
           <h2 className=" font-medium text-6xl max-lg:leading-tight max-lg:text-5xl max-md:text-4xl max-sm:text-[32px] leading-xxl text-white lg:max-w-[654px]">
             We Provide Architectural design and Construction
           </h2>
-          <p className="font-medium text-lg lg:max-w-[579px] leading-7 text-gray-50 pt-6 pb-16 max-lg:pt-4 max-lg:pb-10 max-md:text-base">
+          <p className="font-medium text-lg lg:max-w-[579px] leading-7 text-gray-50 pt-6 pb-14 max-lg:pt-4 max-lg:pb-10 max-lg:text-base">
             More than 100 building and housing projects that we have built. The
             building owner chose us over other contractors in Jakarta, because
             our work is different

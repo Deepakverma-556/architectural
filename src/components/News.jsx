@@ -31,7 +31,7 @@ const News = () => {
         },
     ];
     return (
-        <div id="news" className='font-poppins'>
+        <div id="term" className='font-poppins'>
             <div className='max-w-xxl mx-auto px-4 pt-[60px] max-sm:pt-10 pb-10 '>
                 <div className=" max-lg:text-center">
                     <h2 className='text-dark text-xxxxl font-semibold leading-xxl max-lg:text-4xl max-sm:text-xxxl'>

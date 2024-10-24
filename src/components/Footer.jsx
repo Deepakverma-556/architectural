@@ -50,7 +50,7 @@ const Footer = () => {
                                             </div>
                                         </div>
                                         <div className="ps-40 max-lg:pt-24 max-md:pt-6 max-lg:ps-0 max-lg:text-center">
-                                            <h2 className="font-semibold text-[32px] leading-xl max-md:leading-10 text-white max-md:text-xxxl max-sm:text-2xl">
+                                            <h2 className="font-semibold text-[32px] leading-10 max-md:leading-10 text-white max-md:text-xxxl max-sm:text-2xl">
                                                 What we have done & what our Customers say
                                             </h2>
                                             <p className="font-medium text-lg leading-7 text-gray mt-4 max-md:mt-2">
@@ -79,10 +79,10 @@ const Footer = () => {
                                             </div>
                                         </div>
                                         <div className="ps-40 max-lg:pt-24 max-md:pt-6 max-lg:ps-0 max-lg:text-center">
-                                            <h2 className="font-semibold text-[32px] leading-xl max-md:leading-10 text-white max-md:text-xxxl max-sm:text-2xl">
+                                            <h2 className="font-semibold text-[32px] leading-10 max-md:leading-10 text-white max-md:text-xxxl max-sm:text-2xl">
                                                 What we have done & what our Customers say
                                             </h2>
-                                            <p className="font-medium text-lg leading-7 text-gray mt-4 max-md:mt-2">
+                                            <p className="font-medium text-lg leading-7 text-gray mt-4 max-md:mt-2 pb-6">
                                                 We are here to help you build an excellent build. With us, nothing is impossible. See what we have done and what our customers have to say about our performance.
                                             </p>
                                         </div>
@@ -92,7 +92,7 @@ const Footer = () => {
                                 
                                 
                             </Slider>
-                            <div className="flex absolute w-full bottom-[60px] right-0 px-16 justify-end gap-4 max-lg:bottom-0 max-lg:justify-center">
+                            <div className="flex absolute w-full bottom-[60px] right-0 px-16 justify-end gap-4 max-lg:bottom-0 max-lg:justify-center pb-5">
                                 <button
                                     onClick={handlePrev}
                                     className="prev w-10 h-10 flex items-center justify-center group/btn transition-all duration-300 hover:bg-blue"
@@ -114,11 +114,11 @@ const Footer = () => {
                             </div>
                         </div>
                 </div>
-                <div className='max-w-xxl mx-auto px-4 pb-20 pt-[420px] max-sm:pb-10 max-md:pt-80 max-sm:pt-72'>
+                <div className='max-w-xxl mx-auto px-4 pb-20 pt-[420px] max-sm:pb-10 max-md:pt-80 max-sm:pt-[320px]'>
                     <div className='flex flex-wrap flex-row -mx-3 justify-between'>
                         <div className='w-full md:w-6/12 px-4 max-sm:text-center'>
                             <div>
-                                <p className='font-poppins text-white font-semibold text-base leading-6'>General Project</p>
+                                <a href="#"> <p className='font-poppins text-white font-semibold text-base leading-6'>General Project</p></a>
                                 <p className='font-dm-sans text-white font-normal text-base leading-7 py-8 max-sm:py-5'>is a general contractor company based in Jakarta. More than 25 years of experience in building and carving out Indonesia's development.</p>
                                 <div className='flex items-center gap-[6px] max-sm:justify-center'>
                                     <a href="https://www.google.com/" target='_blank'>
@@ -157,22 +157,22 @@ const Footer = () => {
                                 <div className='w-full sm:w-5/12 px-4 max-sm:text-center'>
                                     <ul className='font-dm-sans text-white'>
                                         <li className='font-bold text-lg pb-7 max-sm:pb-4'>Company</li>
-                                        <li className='pb-6 max-sm:pb'><a href="#header" className="font-normal text-base relative group">
+                                        <li className='pb-6 max-sm:pb'><a href="#about" className="font-normal text-base relative group">
                                             About
                                             <div className="bg-white h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                                         </a>
                                         </li>
-                                        <li className='pb-6 max-sm:pb-4'><a href="#make" className="font-normal text-base relative group">
+                                        <li className='pb-6 max-sm:pb-4'><a href="#works" className="font-normal text-base relative group">
                                             How it Works
                                             <div className="bg-white h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                                         </a>
                                         </li>
-                                        <li className='pb-6 max-sm:pb-4'><a href="#story" className="font-normal text-base relative group">
+                                        <li className='pb-6 max-sm:pb-4'><a href="#term" className="font-normal text-base relative group">
                                             Term
                                             <div className="bg-white h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                                         </a>
                                         </li>
-                                        <li className=''><a href="#news" className="font-normal text-base relative group">
+                                        <li className=''><a href="#privacy" className="font-normal text-base relative group">
                                             Privacy Policy
                                             <div className="bg-white h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                                         </a>
@@ -182,12 +182,12 @@ const Footer = () => {
                                 <div className='w-full sm:w-5/12 px-3 max-sm:text-center max-sm:pt-8'>
                                     <ul className='font-dm-sans text-white'>
                                         <li className='font-bold text-lg pb-7 max-sm:pb-4'>More</li>
-                                        <li className='pb-6 max-sm:pb-4'><a href="#collection" className="font-normal text-base relative group">
+                                        <li className='pb-6 max-sm:pb-4'><a href="#documentation" className="font-normal text-base relative group">
                                             Documentation
                                             <div className="bg-white h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                                         </a>
                                         </li>
-                                        <li><a href="#excellent" className="font-normal text-base relative group">
+                                        <li><a href="#license" className="font-normal text-base relative group">
                                             License
                                             <div className="bg-white h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                                         </a>

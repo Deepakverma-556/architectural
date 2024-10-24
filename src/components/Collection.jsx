@@ -28,13 +28,13 @@ const Collection = () => {
         },
     ];
     return (
-        <div id='collection' className='font-poppins'>
-            <div className='max-w-xxl mx-auto px-4 pt-[55px] max-sm:pt-10 pb-[378px] max-lg:pb-80'>
-                <h2 className='text-dark text-xxxxl font-semibold leading-xxl max-w-[326px] max-lg:mx-auto max-lg:max-w-none max-lg:text-4xl max-lg:text-center max-sm:text-xxxl'>
+        <div id='works' className='font-poppins'>
+            <div className='max-w-xxl mx-auto px-4 pt-[55px] max-sm:pt-10 pb-[378px] max-lg:pb-[350px]'>
+                <h2 className='text-dark text-xxxxl font-semibold leading-xl max-w-[326px] max-lg:mx-auto max-lg:max-w-none max-lg:text-4xl max-lg:text-center max-sm:text-xxxl'>
                     Our collection
                     best project
                 </h2>
-                <div className='flex flex-wrap flex-row -mx-3 pt-9 max-sm:pt-6 justify-center'>
+                <div className='flex flex-wrap flex-row -mx-3 pt-9 max-sm:pt-3 justify-center'>
                     {PROJECTS.map((obj, i) => (
                         <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3 pt-6 max-sm:pt-5' key={i}>
                             <div className='relative group overflow-y-hidden'>

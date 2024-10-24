@@ -23,7 +23,7 @@ const Excellent = () => {
     ];
 
     return (
-        <div id="exellent" className="bg-light-gray font-poppins">
+        <div id="about" className="bg-light-gray font-poppins">
             <div className="max-w-xxl px-4 mx-auto pt-20 max-sm:pt-10 max-lg:pt-14 max-sm:pb-10 pb-[71px] max-lg:pb-14">
                 <div className="flex items-center justify-between w-full max-lg:flex-col max-lg:text-center">
                     <h2 className="text-dark font-semibold text-xxxxl max-w-[304px] leading-xl max-lg:text-4xl max-sm:text-xxxl max-lg:mx-auto max-lg:max-w-none">
@@ -44,7 +44,7 @@ const Excellent = () => {
                                         className=" transition-transform  duration-300 group-hover:scale-[1.04] object-cover h-[257px] w-full"
                                     />
                                 </div>
-                                <h3 className="font-semibold text-xxxl leading-10 pt-9 pb-9  max-lg:py-7 max-md:py-5 max-sm:py-5 max-lg:text-2xl text-dark">
+                                <h3 className="font-semibold text-xxxl leading-10 pt-9 pb-5  max-lg:py-7 max-md:py-5 max-sm:py-5 max-lg:text-2xl text-dark">
                                     {obj.title}
                                 </h3>
                                 <p className="text-lg leading-7 text-gray max-lg:text-base font-medium">{obj.para}</p>
