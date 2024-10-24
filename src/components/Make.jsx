@@ -16,7 +16,7 @@ const Make = () => {
                     </svg>
                 </div>
                 <div className="flex items-center justify-between w-full max-lg:flex-col max-lg:text-center pt-8 max-sm:pt-5 animate__animated animate__backInLeft">
-                    <h2 className="text-dark font-semibold text-xxxxl max-w-[304px] leading-xl max-lg:text-4xl max-lg:mx-auto max-lg:max-w-none max-sm:text-xxxl">What Make Us
+                    <h2 className="text-dark font-semibold text-xxxxl max-w-[335px] leading-xl max-lg:text-4xl max-lg:mx-auto max-lg:max-w-none max-sm:text-xxxl">What Make Us
                         Different?</h2>
                     <p className="font-medium text-lg leading-7 max-w-xl text-gray max-lg:pt-4 max-lg:text-base max-lg:max-w-full">Check out our best service you can possibly orders in building
                         your company and don't forget to ask via our email or our
