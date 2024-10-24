@@ -28,18 +28,18 @@ const Collection = () => {
         },
     ];
     return (
-        <div className='font-poppins'>
-            <div className='max-w-xxl mx-auto px-4 pt-[55px] max-sm:pt-10 pb-[378px]'>
-                <h2 className='text-dark text-xxxxl font-semibold leading-xxl max-w-[326px] max-lg:mx-auto max-lg:max-w-none max-lg:text-4xl max-lg:text-center'>
+        <div id='collection' className='font-poppins'>
+            <div className='max-w-xxl mx-auto px-4 pt-[55px] max-sm:pt-10 pb-[378px] max-lg:pb-80'>
+                <h2 className='text-dark text-xxxxl font-semibold leading-xxl max-w-[326px] max-lg:mx-auto max-lg:max-w-none max-lg:text-4xl max-lg:text-center max-sm:text-xxxl'>
                     Our collection
                     best project
                 </h2>
-                <div className='flex flex-wrap flex-row -mx-3 pt-9 justify-center'>
-                    {PROJECTS.map((obj , i) => (
+                <div className='flex flex-wrap flex-row -mx-3 pt-9 max-sm:pt-6 justify-center'>
+                    {PROJECTS.map((obj, i) => (
                         <div className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3 pt-6 max-sm:pt-5' key={i}>
                             <div className='relative group overflow-y-hidden'>
-                                <img src={obj.image} alt="building-image" className='max-lg:h-[420px] max-sm:w-[250px] max-sm:h-[350px] mx-auto w-full object-cover' />
-                                <div className='bg-white  py-4 px-4 flex gap-5 items-center justify-center absolute group-hover:bottom-2 left-1/2 -translate-x-1/2 transition-all duration-300 transform group-hover:translate-y-0 translate-y-[100%]'>
+                                <img src={obj.image} alt="building-image" className='max-lg:h-[420px] max-sm:w-[290px] max-sm:h-[350px] h-[478px] mx-auto w-full object-cover' />
+                                <div className='bg-white cursor-pointer py-4 px-4 flex gap-5 items-center justify-center absolute -bottom-40 group-hover:bottom-2 left-1/2 -translate-x-1/2 transition-all duration-300 group-hover:transition-all group-hover:duration-300 '>
                                     <div>
                                         <p className='font-semibold text-base leading-6 text-dark max-lg:text-sm text-nowrap'>{obj.title}</p>
                                         <p className='font-medium text-xsm leading-4 text-gray text-nowrap'>{obj.status}</p>

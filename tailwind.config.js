@@ -18,15 +18,16 @@ module.exports = {
         xxxxxl: '64px',
       },
       colors: {
+        'gray-50': '#c4c4c4',
         blue: '#0a71ad',
-        gray: '#c4c4c4',
+        gray: '#716b6b',
         'dark-blue': '#2387c0',
         dark: '#242527',
         'light-gray': '#f6f6f6',
         light: '#e5e5e5',
         'dark-gray': '#939393',
         bluee: "#BDDBEC",
-        'very-dark-blue':'#232D33' 
+        'very-dark-blue': '#232D33'
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
@@ -34,7 +35,6 @@ module.exports = {
       },
       maxWidth: {
         xxl: '1140px',
-        xxxl: '1440px',
       },
       backgroundImage: {
         home: "url('./assets/images/sec-1-bg.webp')"

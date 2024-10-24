@@ -18,14 +18,14 @@ const Header = () => {
     };
   }, [open]);
   return (
-    <section className="bg-gradient-to-r from-[#474747] to-[#222222] font-poppins pt-12 max-lg:pt-8 min-h-screen overflow-hidden">
+    <section id="header" className="bg-gradient-to-r from-[#474747] to-[#222222] font-poppins pt-12 max-lg:pt-8 max-md:pt-6 max-sm:pt-3 min-h-screen overflow-hidden">
       <nav>
         <div className="max-w-xxl mx-auto px-4 pb-9 max-lg:pb-6">
-          <div className="w-full flex justify-between items-start">
+          <div className="w-full flex justify-between items-center">
             <div>
-              <a href="" className="font-medium text-lg leading-7 text-white">
+              <a href="" className="font-medium text-lg max-lg:text-base max-sm:text-sm leading-7 text-white">
                 General <br />{" "}
-                <span className="font-bold text-2xl leading-9 text-blue">
+                <span className="font-bold text-2xl max-lg:text-xxl max-sm:text-xl leading-9 text-blue">
                   Project
                 </span>
               </a>
@@ -34,76 +34,76 @@ const Header = () => {
               <li>
                 <a
                   href="#"
-                  className="font-medium text-lg leading-7 relative group text-gray"
+                  className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   Home
-                  <div className="bg-gray h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="font-medium text-lg leading-7 relative group text-gray"
+                  className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   Services
-                  <div className="bg-gray h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="font-medium text-lg leading-7 relative group text-gray text-nowrap"
+                  className="font-medium text-lg leading-7 relative group text-gray-50 text-nowrap"
                 >
                   Find a Team
-                  <div className="bg-gray h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="font-medium text-lg leading-7 relative group text-gray"
+                  className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   About
-                  <div className="bg-gray h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="font-medium text-lg leading-7 relative group text-gray"
+                  className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   Articals
-                  <div className="bg-gray h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="font-medium text-lg leading-7 relative group text-gray"
+                  className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   Portfolio
-                  <div className="bg-gray h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="font-medium text-lg leading-7 relative group text-gray text-nowrap"
+                  className="font-medium text-lg leading-7 relative group text-gray-50 text-nowrap"
                 >
                   Contact-us
-                  <div className="bg-gray h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
             </ul>
             <div
-              className="lg:hidden text-white z-20 text-4xl max-sm:text-3xl font-bold"
+              className="lg:hidden text-white z-30 text-4xl max-sm:text-3xl font-bold cursor-pointer"
               onClick={() => setOpen(!open)}
             >
               {open ? "✕" : "☰"}
             </div>
           </div>
           <div
-            className={`w-full h-full bg-black transition-all duration-500 left-0 lg:-top-full z-10 fixed flex justify-center items-center ${open ? "top-0 left-0" : "-top-full"
+            className={`w-full h-full bg-black transition-all duration-500 left-0 lg:-top-full z-20 fixed flex justify-center items-center ${open ? "top-0 left-0" : "-top-full"
               }`}
           >
             <ul className="flex flex-col justify-center items-center gap-14 max-lg:gap-8">
@@ -111,70 +111,70 @@ const Header = () => {
                 <a
                   onClick={() => setOpen(open)}
                   href="#"
-                  className="font-medium text-lg leading-7 relative group text-gray"
+                  className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   Home
-                  <div className="bg-gray h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
                 <a
                   onClick={() => setOpen(false)}
                   href="#"
-                  className="font-medium text-lg leading-7 relative group text-gray"
+                  className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   Services
-                  <div className="bg-gray h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
                 <a
                   onClick={() => setOpen(false)}
                   href="#"
-                  className="font-medium text-lg leading-7 relative group text-gray text-nowrap"
+                  className="font-medium text-lg leading-7 relative group text-gray-50 text-nowrap"
                 >
                   Find a Team
-                  <div className="bg-gray h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
                 <a
                   onClick={() => setOpen(false)}
                   href="#"
-                  className="font-medium text-lg leading-7 relative group text-gray"
+                  className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   About
-                  <div className="bg-gray h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
                 <a
                   onClick={() => setOpen(false)}
                   href="#"
-                  className="font-medium text-lg leading-7 relative group text-gray"
+                  className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   Articals
-                  <div className="bg-gray h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
                 <a
                   onClick={() => setOpen(false)}
                   href="#"
-                  className="font-medium text-lg leading-7 relative group text-gray"
+                  className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   Portfolio
-                  <div className="bg-gray h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
                 <a
                   onClick={() => setOpen(open)}
                   href="#"
-                  className="font-medium text-lg leading-7 relative group text-gray text-nowrap"
+                  className="font-medium text-lg leading-7 relative group text-gray-50 text-nowrap"
                 >
                   Contact-us
-                  <div className="bg-gray h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  <div className="bg-gray-50 h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
             </ul>
@@ -184,40 +184,40 @@ const Header = () => {
       <div className="max-w-xxl mx-auto px-4 relative lg:pb-[52px]">
         <div className="bg-home max-lg:hidden w-full bg-cover bg-top absolute -right-60 h-full max-w-[698px] max-h-[741px]"></div>
         <div className="">
-          <h2 className="font-medium text-xxxxxl max-lg:leading-tight max-lg:text-5xl leading-xxxl text-white lg:max-w-[654px]">
+          <h2 className="animate__animated animate__bounceInLeft animate__faster font-medium text-6xl max-lg:leading-tight max-lg:text-5xl max-md:text-4xl max-sm:text-[32px] leading-xxl text-white lg:max-w-[654px]">
             We Provide Architectural design and Construction
           </h2>
-          <p className="font-medium text-lg lg:max-w-[579px] leading-7 text-gray pt-6 pb-16 max-lg:pt-4 max-lg:pb-10">
+          <p className="animate__animated animate__bounceInLeft font-medium text-lg lg:max-w-[579px] leading-7 text-gray-50 pt-6 pb-16 max-lg:pt-4 max-lg:pb-10 max-md:text-base">
             More than 100 building and housing projects that we have built. The
             building owner chose us over other contractors in Jakarta, because
             our work is different
           </p>
-          <button className="py-5 px-10 font-semibold text-base leading-6 text-white bg-gradient-to-r from-[#60bbee] to-blue shadow-[0px_10px_15px_0px] shadow-[#01739933] transition-all duration-300 hover:shadow-[#23a3eb]">
-            Discover More
-          </button>
+          <button className="animate__animated animate__bounceInLeft relative py-5 px-10 overflow-hidden max-lg:py-4 max-lg:px-8 max-md:py-3 max-md:px-6 max-md:text-sm font-semibold text-base leading-6 text-white bg-gradient-to-r from-[#60bbee] to-blue shadow-[0px_10px_15px_0px] shadow-[#01739933] transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:duration-300 before:ease-out hover:before:h-full hover:before:w-full hover:before:bg-white hover:shadow-none hover:text-blue hover:before:opacity-80">
+            <span className="relative z-10">Discover More</span></button>
+
         </div>
         <div className="flex gap-12 pt-10 max-lg:pt-7 lg:hidden">
           <div>
-            <p className="font-bold text-4xl max-lg:text-3xl leading-xl text-white">
+            <p className="font-bold text-4xl max-lg:text-3xl max-md:text-2xl leading-xl text-white">
               300<span className="text-dark-blue">+</span>
             </p>
-            <p className="max-w-24 font-semibold text-base leading-7 text-gray">
+            <p className="max-w-24 font-semibold text-base max-md:text-sm leading-7 text-gray-50">
               Happy Client
             </p>
           </div>
           <div>
-            <p className="font-bold text-4xl max-lg:text-3xl leading-xl text-white">
+            <p className="font-bold text-4xl max-lg:text-3xl max-md:text-2xl leading-xl text-white">
               900<span className="text-dark-blue">+</span>
             </p>
-            <p className="max-w-24 font-semibold text-base leading-7 text-gray">
+            <p className="max-w-24 font-semibold text-base max-md:text-sm leading-7 text-gray-50">
               Amazing projects
             </p>
           </div>
           <div>
-            <p className="font-bold text-4xl max-lg:text-3xl leading-xl text-white">
+            <p className="font-bold text-4xl max-lg:text-3xl max-md:text-2xl leading-xl text-white">
               20<span className="text-dark-blue">+</span>
             </p>
-            <p className="max-w-24 font-semibold text-base leading-7 text-gray">
+            <p className="max-w-24 font-semibold text-base max-md:text-sm leading-7 text-gray-50">
               Awards Winning
             </p>
           </div>
@@ -229,12 +229,12 @@ const Header = () => {
       <div className="max-w-xxl mx-auto px-4">
         <div className="flex flex-wrap justify-between relative max-lg:hidden">
           <div className="w-full lg:w-4/12 ">
-            <div className="flex gap-12 pb-14 ">
+            <div className="flex gap-12 pb-14 animate__animated animate__bounceInLeft">
               <div>
                 <p className="font-bold text-4xl leading-xl text-white">
                   300<span className="text-dark-blue">+</span>
                 </p>
-                <p className="max-w-24 font-semibold text-base leading-7 text-gray">
+                <p className="max-w-24 font-semibold text-base leading-7 text-gray-50">
                   Happy Client
                 </p>
               </div>
@@ -242,7 +242,7 @@ const Header = () => {
                 <p className="font-bold text-4xl leading-xl text-white">
                   900<span className="text-dark-blue">+</span>
                 </p>
-                <p className="max-w-24 font-semibold text-base leading-7 text-gray">
+                <p className="max-w-24 font-semibold text-base leading-7 text-gray-50">
                   Amazing projects
                 </p>
               </div>
@@ -250,7 +250,7 @@ const Header = () => {
                 <p className="font-bold text-4xl leading-xl text-white">
                   20<span className="text-dark-blue">+</span>
                 </p>
-                <p className="max-w-24 font-semibold text-base leading-7 text-gray">
+                <p className="max-w-24 font-semibold text-base leading-7 text-gray-50">
                   Awards Winning
                 </p>
               </div>
@@ -299,19 +299,19 @@ const Header = () => {
         <div className="flex lg:hidden max-sm:py-5 max-sm:px-4 py-9 px-8 bg-gradient-to-r from-[#399fd8] via-[#0775b4] to-[#003756]">
           <div className="flex flex-wrap w-full items-center justify-between">
             <div className="w-1/2 md:w-2/12">
-              <p className="font-medium text-base leading-3 text-white">
-                General <br /> <br />
-                <span className="font-semibold text-2xl leading-9">
+              <p className="font-medium text-base max-md:text-sm leading-3 text-white">
+                General <br />
+                <span className="font-semibold text-2xl max-lg:text-xxl max-md:text-xl leading-9">
                   Project
                 </span>
               </p>
             </div>
             <div className="w-1/2 md:w-2/12">
               <div className="relative max-w-max">
-                <p className="font-bold text-4xl leading-7 text-white max-w-[117px]">
+                <p className="font-bold text-4xl max-lg:text-[32px] max-md:text-xxxl max-sm:text-2xl text-white max-w-[117px]">
                   25
-                  <span className="font-medium text-lg leading-7"> Years </span>
-                  <span className="font-semibold text-2xl leading-9">
+                  <span className="font-medium text-lg max-md:text-base"> Years </span>
+                  <span className="font-semibold text-2xl max-md:text-xl max-sm:text-lg">
                     Operated
                   </span>
                 </p>
