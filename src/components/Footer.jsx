@@ -54,7 +54,7 @@ const Footer = () => {
                                         <h2 className="font-semibold text-[32px] leading-10 max-md:leading-10 text-white max-md:text-xxxl max-sm:text-2xl">
                                             What we have done & what our Customers say
                                         </h2>
-                                        <div className="max-[500px]:h-[150px] flex overflow-y-scroll mt-4 max-md:mt-2 max-lg:mb-9">
+                                        <div className="max-[500px]:h-[150px] flex max-md:overflow-y-scroll mt-4 max-md:mt-2 max-lg:mb-9">
                                             <p className="font-medium text-lg max-lg:text-base leading-7 text-gray-50">
                                                 We are here to help you build an excellent build. With us, nothing is impossible. See what we have done and what our customers have to say about our performance.
                                             </p>
@@ -85,7 +85,7 @@ const Footer = () => {
                                         <h2 className="font-semibold text-[32px] leading-10 max-md:leading-10 text-white max-md:text-xxxl max-sm:text-2xl">
                                             What we have done & what our Customers say
                                         </h2>
-                                        <div className="max-[500px]:h-[150px] flex overflow-y-scroll mt-4 max-md:mt-2 max-lg:mb-9">
+                                        <div className="max-[500px]:h-[150px] flex max-md:overflow-y-scroll mt-4 max-md:mt-2 max-lg:mb-9">
                                             <p className="font-medium text-lg max-lg:text-base leading-7 text-gray-50">
                                                 We are here to help you build an excellent build. With us, nothing is impossible. See what we have done and what our customers have to say about our performance.
                                             </p>
