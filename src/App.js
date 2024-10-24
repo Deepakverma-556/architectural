@@ -6,6 +6,7 @@ import Story from './components/Story';
 import News from './components/News';
 import Collection from './components/Collection';
 import Footer from './components/Footer';
+import 'animate.css';
 
 function App() {
   return (
