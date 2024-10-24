@@ -1,5 +1,4 @@
 import './App.css';
-import 'animate.css'
 import Brand from './components/Brand';
 import Header from './components/Header';
 import Meet from './components/Meet';

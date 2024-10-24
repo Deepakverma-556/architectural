@@ -184,15 +184,15 @@ const Header = () => {
       <div className="max-w-xxl mx-auto px-4 relative lg:pb-[52px]">
         <div className="bg-home max-lg:hidden w-full bg-cover bg-top absolute -right-60 h-full max-w-[698px] max-h-[741px]"></div>
         <div className="">
-          <h2 className="animate__animated animate__bounceInLeft animate__faster font-medium text-6xl max-lg:leading-tight max-lg:text-5xl max-md:text-4xl max-sm:text-[32px] leading-xxl text-white lg:max-w-[654px]">
+          <h2 className=" font-medium text-6xl max-lg:leading-tight max-lg:text-5xl max-md:text-4xl max-sm:text-[32px] leading-xxl text-white lg:max-w-[654px]">
             We Provide Architectural design and Construction
           </h2>
-          <p className="animate__animated animate__bounceInLeft font-medium text-lg lg:max-w-[579px] leading-7 text-gray-50 pt-6 pb-16 max-lg:pt-4 max-lg:pb-10 max-md:text-base">
+          <p className="font-medium text-lg lg:max-w-[579px] leading-7 text-gray-50 pt-6 pb-16 max-lg:pt-4 max-lg:pb-10 max-md:text-base">
             More than 100 building and housing projects that we have built. The
             building owner chose us over other contractors in Jakarta, because
             our work is different
           </p>
-          <button className="animate__animated animate__bounceInLeft relative py-5 px-10 overflow-hidden max-lg:py-4 max-lg:px-8 max-md:py-3 max-md:px-6 max-md:text-sm font-semibold text-base leading-6 text-white bg-gradient-to-r from-[#60bbee] to-blue shadow-[0px_10px_15px_0px] shadow-[#01739933] transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:duration-300 before:ease-out hover:before:h-full hover:before:w-full hover:before:bg-white hover:shadow-none hover:text-blue hover:before:opacity-80">
+          <button className="relative py-5 px-10 overflow-hidden max-lg:py-4 max-lg:px-8 max-md:py-3 max-md:px-6 max-md:text-sm font-semibold text-base leading-6 text-white bg-gradient-to-r from-[#60bbee] to-blue shadow-[0px_10px_15px_0px] shadow-[#01739933] transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:duration-300 before:ease-out hover:before:h-full hover:before:w-full hover:before:bg-white hover:shadow-none hover:text-blue hover:before:opacity-80">
             <span className="relative z-10">Discover More</span></button>
 
         </div>
@@ -229,7 +229,7 @@ const Header = () => {
       <div className="max-w-xxl mx-auto px-4">
         <div className="flex flex-wrap justify-between relative max-lg:hidden">
           <div className="w-full lg:w-4/12 ">
-            <div className="flex gap-12 pb-14 animate__animated animate__bounceInLeft">
+            <div className="flex gap-12 pb-14">
               <div>
                 <p className="font-bold text-4xl leading-xl text-white">
                   300<span className="text-dark-blue">+</span>
