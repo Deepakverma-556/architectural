@@ -14,7 +14,7 @@ const Meet = () => {
                     <div className="w-full lg:w-1/2 px-3 max-lg:pt-6 max-lg:text-center">
                         <div>
                             <h2 className="font-poppins text-dark font-semibold text-xxxxl leading-xxl max-lg:leading-tight max-lg:text-4xl max-sm:text-xxxl max-sm:leading-8">Meet and talk with our best architecture</h2>
-                            <p className="font-poppins font-medium text-lg max-md:text-base max-md:font-normal leading-7 text-gray pt-9 max-lg:pt-4 pb-16 max-lg:pb-12 max-md:pb-9">All our teams are professional and competent in
+                            <p className="font-poppins font-medium text-lg max-md:text-base leading-7 text-gray pt-9 max-lg:pt-4 pb-16 max-lg:pb-12 max-md:pb-9">All our teams are professional and competent in
                                 their fields and will help you realize your dream
                                 building with the excellent result.</p>
                             <div className="flex items-center gap-7 max-lg:justify-center">
