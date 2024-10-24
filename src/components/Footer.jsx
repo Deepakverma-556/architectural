@@ -25,96 +25,101 @@ const Footer = () => {
         <>
 
 
-            <div className='bg-gradient-to-r from-[#474747] to-[#222222] shadow-[0px_10px_15px_0px] shadow-[#9797971F] relative'>
+            <div className='bg-gradient-to-br from-[#474747] from-0% to-[#222222] to-40% shadow-[0px_10px_15px_0px] shadow-[#9797971F] relative'>
                 <div className="absolute -top-1/3 left-1/2 -translate-x-1/2">
-                    
-                    <div className="max-w-[1064px] max-[1100px]:max-w-4xl max-[920px]:max-w-3xl max-md:max-w-2xl max-[710px]:max-w-xl max-sm:max-w-[500px] max-[500px]:max-w-[400px] max-[400px]:max-w-[340px] w-full mx-auto bg-gradient-to-r from-[#474747] to-[#222222] pt-16 px-16 pb-14 max-sm:px-4 max-sm:pt-8 max-sm:pb-10 max-lg:pt-8 max-lg:px-10 relative shadow-[0px_10px_15px_0px] shadow-[#00000014]">
-                            <Slider ref={sliderRef} {...settings}>
-                                <div>
-                                    <div className="flex items-start max-lg:flex-col max-lg:justify-center max-lg:items-center">
-                                        <div className="relative h-[420px] max-lg:h-[300px] max-md:h-[250px]">
-                                            <img src={SlideImg} alt="slideimg" className="max-w-[269px] max-md:h-full max-lg:mx-auto max-md:w-60 object-cover" />
-                                            <div className="absolute  -right-1/2 bottom-0 max-lg:-bottom-24 max-md:-bottom-14 max-md:hidden">
-                                                <div className="font-poppins pt-10 max-md:pt-4 px-5 pb-4 bg-white relative max-md:px-2 max-md:pb-2">
-                                                    <h2 className="font-semibold text-xxl max-md:text-xl leading-8 text-dark pb-2 max-md:pb-1 text-center">Jacob Molen</h2>
-                                                    <p className="text-xsm leading-5 max-md:leading-2 text-dark-gray max-w-[222px]">We like the final result this project,
-                                                        in extraordinary and also provides
-                                                        the best service to the client </p>
-                                                    <div className="h-16 w-16 max-md:w-10 max-md:h-10 rounded-full flex items-center justify-center bg-white shadow-[0px_10px_15px_0px] shadow-[#2387C026] absolute -top-8 left-1/2 -translate-x-1/2 max-md:-top-6">
-                                                        <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M1.61435 2.45748C2.60815 1.38011 4.11194 0.833984 6.08323 0.833984H6.79156V2.83078L6.22206 2.94482C5.25165 3.1389 4.57661 3.52069 4.21536 4.08098C4.02686 4.38283 3.91996 4.72843 3.90511 5.08398H6.08323C6.27109 5.08398 6.45126 5.15861 6.5841 5.29145C6.71694 5.42429 6.79156 5.60446 6.79156 5.79232V10.7507C6.79156 11.5319 6.15619 12.1673 5.3749 12.1673H1.1249C0.937035 12.1673 0.756868 12.0927 0.624029 11.9599C0.491191 11.827 0.416563 11.6468 0.416563 11.459V7.91732L0.418688 5.84969C0.412313 5.77107 0.27773 3.90815 1.61435 2.45748ZM13.1666 12.1673H8.91656C8.7287 12.1673 8.54853 12.0927 8.4157 11.9599C8.28286 11.827 8.20823 11.6468 8.20823 11.459V7.91732L8.21036 5.84969C8.20398 5.77107 8.0694 3.90815 9.40602 2.45748C10.3998 1.38011 11.9036 0.833984 13.8749 0.833984H14.5832V2.83078L14.0137 2.94482C13.0433 3.1389 12.3683 3.52069 12.007 4.08098C11.8185 4.38283 11.7116 4.72843 11.6968 5.08398H13.8749C14.0628 5.08398 14.2429 5.15861 14.3758 5.29145C14.5086 5.42429 14.5832 5.60446 14.5832 5.79232V10.7507C14.5832 11.5319 13.9479 12.1673 13.1666 12.1673Z" fill="#0A72AD" />
-                                                        </svg>
 
-                                                    </div>
+                    <div className="max-w-[1064px] max-[1100px]:max-w-4xl max-[920px]:max-w-3xl max-md:max-w-2xl max-[710px]:max-w-xl max-sm:max-w-[501px] max-[510px]:max-w-[400px] max-[425px]:max-w-[340px] w-full mx-auto bg-gradient-to-br from-[#474747] from-0% to-[#222222] to-40% pt-16 px-16 pb-14 max-sm:px-4 max-sm:pt-8 max-sm:pb-10 max-lg:pt-8 max-lg:px-10 relative shadow-[0px_10px_15px_0px] shadow-[#00000014]">
+                        <Slider ref={sliderRef} {...settings}>
+
+                            <div>
+                                <div className="flex items-start max-lg:flex-col max-lg:justify-center max-lg:items-center">
+                                    <div className="relative h-[420px] max-lg:h-[300px] max-md:h-[250px]">
+                                        <img src={SlideImg} alt="slideimg" className="max-w-[269px] max-md:h-full max-lg:mx-auto max-md:w-60 object-cover max-sm:max-w-[308px]" />
+                                        <div className="absolute  -right-1/2 bottom-0 max-lg:-bottom-24 max-md:-bottom-14 max-md:hidden">
+                                            <div className="font-poppins pt-10 max-md:pt-4 px-5 pb-4 bg-white relative max-md:px-2 max-md:pb-2">
+                                                <h2 className="font-semibold text-xxl max-md:text-xl leading-8 text-dark pb-2 max-md:pb-1 text-center">Jacob Molen</h2>
+                                                <p className="text-xsm leading-5 max-md:leading-2 text-dark-gray max-w-[222px]">We like the final result this project,
+                                                    in extraordinary and also provides
+                                                    the best service to the client </p>
+                                                <div className="h-16 w-16 max-md:w-10 max-md:h-10 rounded-full flex items-center justify-center bg-white shadow-[0px_10px_15px_0px] shadow-[#2387C026] absolute -top-8 left-1/2 -translate-x-1/2 max-md:-top-6">
+                                                    <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1.61435 2.45748C2.60815 1.38011 4.11194 0.833984 6.08323 0.833984H6.79156V2.83078L6.22206 2.94482C5.25165 3.1389 4.57661 3.52069 4.21536 4.08098C4.02686 4.38283 3.91996 4.72843 3.90511 5.08398H6.08323C6.27109 5.08398 6.45126 5.15861 6.5841 5.29145C6.71694 5.42429 6.79156 5.60446 6.79156 5.79232V10.7507C6.79156 11.5319 6.15619 12.1673 5.3749 12.1673H1.1249C0.937035 12.1673 0.756868 12.0927 0.624029 11.9599C0.491191 11.827 0.416563 11.6468 0.416563 11.459V7.91732L0.418688 5.84969C0.412313 5.77107 0.27773 3.90815 1.61435 2.45748ZM13.1666 12.1673H8.91656C8.7287 12.1673 8.54853 12.0927 8.4157 11.9599C8.28286 11.827 8.20823 11.6468 8.20823 11.459V7.91732L8.21036 5.84969C8.20398 5.77107 8.0694 3.90815 9.40602 2.45748C10.3998 1.38011 11.9036 0.833984 13.8749 0.833984H14.5832V2.83078L14.0137 2.94482C13.0433 3.1389 12.3683 3.52069 12.007 4.08098C11.8185 4.38283 11.7116 4.72843 11.6968 5.08398H13.8749C14.0628 5.08398 14.2429 5.15861 14.3758 5.29145C14.5086 5.42429 14.5832 5.60446 14.5832 5.79232V10.7507C14.5832 11.5319 13.9479 12.1673 13.1666 12.1673Z" fill="#0A72AD" />
+                                                    </svg>
+
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="ps-40 max-lg:pt-24 max-md:pt-6 max-lg:ps-0 max-lg:text-center">
-                                            <h2 className="font-semibold text-[32px] leading-10 max-md:leading-10 text-white max-md:text-xxxl max-sm:text-2xl">
-                                                What we have done & what our Customers say
-                                            </h2>
-                                            <p className="font-medium text-lg leading-7 text-gray mt-4 max-md:mt-2">
+                                    </div>
+                                    <div className="ps-40 max-lg:pt-24 max-md:pt-6 max-lg:ps-0 max-lg:text-center">
+                                        <h2 className="font-semibold text-[32px] leading-10 max-md:leading-10 text-white max-md:text-xxxl max-sm:text-2xl">
+                                            What we have done & what our Customers say
+                                        </h2>
+                                        <div className="max-sm:h-[150px] h-24 flex overflow-y-scroll mt-4 max-md:mt-2 max-lg:mb-9">
+                                            <p className="font-medium text-lg max-lg:text-base leading-7 text-gray-50">
                                                 We are here to help you build an excellent build. With us, nothing is impossible. See what we have done and what our customers have to say about our performance.
                                             </p>
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <div className="flex items-start max-lg:flex-col max-lg:justify-center max-lg:items-center">
-                                        <div className="relative h-[420px] max-lg:h-[300px] max-md:h-[250px]">
-                                            <img src={SlideImg} alt="slideimg" className="max-w-[269px] max-md:h-full max-lg:mx-auto max-md:w-60 object-cover" />
-                                            <div className="absolute  -right-1/2 bottom-0 max-lg:-bottom-24 max-md:-bottom-14 max-md:hidden">
-                                                <div className="font-poppins pt-10 max-md:pt-4 px-5 pb-4 bg-white relative max-md:px-2 max-md:pb-2">
-                                                    <h2 className="font-semibold text-xxl max-md:text-xl leading-8 text-dark pb-2 max-md:pb-1 text-center">Jacob Molen</h2>
-                                                    <p className="text-xsm leading-5 max-md:leading-2 text-dark-gray max-w-[222px]">We like the final result this project,
-                                                        in extraordinary and also provides
-                                                        the best service to the client </p>
-                                                    <div className="h-16 w-16 max-md:w-10 max-md:h-10 rounded-full flex items-center justify-center bg-white shadow-[0px_10px_15px_0px] shadow-[#2387C026] absolute -top-8 left-1/2 -translate-x-1/2 max-md:-top-6">
-                                                        <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M1.61435 2.45748C2.60815 1.38011 4.11194 0.833984 6.08323 0.833984H6.79156V2.83078L6.22206 2.94482C5.25165 3.1389 4.57661 3.52069 4.21536 4.08098C4.02686 4.38283 3.91996 4.72843 3.90511 5.08398H6.08323C6.27109 5.08398 6.45126 5.15861 6.5841 5.29145C6.71694 5.42429 6.79156 5.60446 6.79156 5.79232V10.7507C6.79156 11.5319 6.15619 12.1673 5.3749 12.1673H1.1249C0.937035 12.1673 0.756868 12.0927 0.624029 11.9599C0.491191 11.827 0.416563 11.6468 0.416563 11.459V7.91732L0.418688 5.84969C0.412313 5.77107 0.27773 3.90815 1.61435 2.45748ZM13.1666 12.1673H8.91656C8.7287 12.1673 8.54853 12.0927 8.4157 11.9599C8.28286 11.827 8.20823 11.6468 8.20823 11.459V7.91732L8.21036 5.84969C8.20398 5.77107 8.0694 3.90815 9.40602 2.45748C10.3998 1.38011 11.9036 0.833984 13.8749 0.833984H14.5832V2.83078L14.0137 2.94482C13.0433 3.1389 12.3683 3.52069 12.007 4.08098C11.8185 4.38283 11.7116 4.72843 11.6968 5.08398H13.8749C14.0628 5.08398 14.2429 5.15861 14.3758 5.29145C14.5086 5.42429 14.5832 5.60446 14.5832 5.79232V10.7507C14.5832 11.5319 13.9479 12.1673 13.1666 12.1673Z" fill="#0A72AD" />
-                                                        </svg>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="ps-40 max-lg:pt-24 max-md:pt-6 max-lg:ps-0 max-lg:text-center">
-                                            <h2 className="font-semibold text-[32px] leading-10 max-md:leading-10 text-white max-md:text-xxxl max-sm:text-2xl">
-                                                What we have done & what our Customers say
-                                            </h2>
-                                            <p className="font-medium text-lg leading-7 text-gray mt-4 max-md:mt-2 pb-6">
-                                                We are here to help you build an excellent build. With us, nothing is impossible. See what we have done and what our customers have to say about our performance.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                               
-                                
-                                
-                            </Slider>
-                            <div className="flex absolute w-full bottom-[60px] right-0 px-16 justify-end gap-4 max-lg:bottom-0 max-lg:justify-center pb-5">
-                                <button
-                                    onClick={handlePrev}
-                                    className="prev w-10 h-10 flex items-center justify-center group/btn transition-all duration-300 hover:bg-blue"
-                                >
-                                    <svg width="25" height="17" viewBox="0 0 25 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M5.19559 9.68124L9.42967 13.914L9.42972 13.914C9.65143 14.1357 9.77599 14.4364 9.77599 14.75C9.77599 15.0635 9.65143 15.3642 9.42972 15.586C9.208 15.8077 8.9073 15.9322 8.59375 15.9322C8.2802 15.9322 7.9795 15.8077 7.75778 15.586L1.50814 9.33631C1.39813 9.22659 1.31086 9.09623 1.25131 8.95272C1.19176 8.80921 1.1611 8.65537 1.1611 8.49999C1.1611 8.34461 1.19176 8.19077 1.25131 8.04726C1.31086 7.90375 1.39813 7.77339 1.50814 7.66367L7.75778 1.41402C7.9795 1.19231 8.2802 1.06775 8.59375 1.06775C8.9073 1.06775 9.208 1.19231 9.42972 1.41402C9.65143 1.63574 9.77599 1.93644 9.77599 2.24999C9.77599 2.56354 9.65143 2.86425 9.42972 3.08596L9.42967 3.086L5.19559 7.31874L22.6562 7.31874C22.9695 7.31874 23.27 7.44319 23.4915 7.66472L23.2098 7.94642L23.4915 7.66472C23.713 7.88625 23.8375 8.1867 23.8375 8.49999C23.8375 8.81328 23.713 9.11373 23.4915 9.33526C23.27 9.55679 22.9695 9.68124 22.6562 9.68124H5.19559Z" fill="white" stroke="white" strokeWidth="0.8" />
-                                    </svg>
-
-                                </button>
-                                <button
-                                    onClick={handleNext}
-                                    className="next w-10 h-10 flex items-center justify-center group/btn transition-all duration-300 hover:bg-blue"
-                                >
-                                    <svg width="25" height="17" viewBox="0 0 25 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M19.8044 9.68124L15.5703 13.914L15.5703 13.914C15.3486 14.1357 15.224 14.4364 15.224 14.75C15.224 15.0635 15.3486 15.3642 15.5703 15.586C15.792 15.8077 16.0927 15.9322 16.4062 15.9322C16.7198 15.9322 17.0205 15.8077 17.2422 15.586L23.4919 9.33631C23.6019 9.22659 23.6891 9.09623 23.7487 8.95272C23.8082 8.80921 23.8389 8.65537 23.8389 8.49999C23.8389 8.34461 23.8082 8.19077 23.7487 8.04726C23.6891 7.90375 23.6019 7.77339 23.4919 7.66367L17.2422 1.41402C17.0205 1.19231 16.7198 1.06775 16.4062 1.06775C16.0927 1.06775 15.792 1.19231 15.5703 1.41402C15.3486 1.63574 15.224 1.93644 15.224 2.24999C15.224 2.56354 15.3486 2.86425 15.5703 3.08596L15.5703 3.086L19.8044 7.31874L2.34375 7.31874C2.03046 7.31874 1.73001 7.44319 1.50848 7.66472L1.79018 7.94642L1.50848 7.66472C1.28695 7.88625 1.1625 8.1867 1.1625 8.49999C1.1625 8.81328 1.28695 9.11373 1.50848 9.33526C1.73001 9.55679 2.03046 9.68124 2.34375 9.68124H19.8044Z" fill="white" stroke="white" strokeWidth="0.8" />
-                                    </svg>
-
-                                </button>
                             </div>
+                            <div>
+                                <div className="flex items-start max-lg:flex-col max-lg:justify-center max-lg:items-center">
+                                    <div className="relative h-[420px] max-lg:h-[300px] max-md:h-[250px]">
+                                        <img src={SlideImg} alt="slideimg" className="max-w-[269px] max-md:h-full max-lg:mx-auto max-md:w-60 object-cover" />
+                                        <div className="absolute  -right-1/2 bottom-0 max-lg:-bottom-24 max-md:-bottom-14 max-md:hidden">
+                                            <div className="font-poppins pt-10 max-md:pt-4 px-5 pb-4 bg-white relative max-md:px-2 max-md:pb-2">
+                                                <h2 className="font-semibold text-xxl max-md:text-xl leading-8 text-dark pb-2 max-md:pb-1 text-center">Jacob Molen</h2>
+                                                <p className="text-xsm leading-5 max-md:leading-2 text-dark-gray max-w-[222px]">We like the final result this project,
+                                                    in extraordinary and also provides
+                                                    the best service to the client </p>
+                                                <div className="h-16 w-16 max-md:w-10 max-md:h-10 rounded-full flex items-center justify-center bg-white shadow-[0px_10px_15px_0px] shadow-[#2387C026] absolute -top-8 left-1/2 -translate-x-1/2 max-md:-top-6">
+                                                    <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1.61435 2.45748C2.60815 1.38011 4.11194 0.833984 6.08323 0.833984H6.79156V2.83078L6.22206 2.94482C5.25165 3.1389 4.57661 3.52069 4.21536 4.08098C4.02686 4.38283 3.91996 4.72843 3.90511 5.08398H6.08323C6.27109 5.08398 6.45126 5.15861 6.5841 5.29145C6.71694 5.42429 6.79156 5.60446 6.79156 5.79232V10.7507C6.79156 11.5319 6.15619 12.1673 5.3749 12.1673H1.1249C0.937035 12.1673 0.756868 12.0927 0.624029 11.9599C0.491191 11.827 0.416563 11.6468 0.416563 11.459V7.91732L0.418688 5.84969C0.412313 5.77107 0.27773 3.90815 1.61435 2.45748ZM13.1666 12.1673H8.91656C8.7287 12.1673 8.54853 12.0927 8.4157 11.9599C8.28286 11.827 8.20823 11.6468 8.20823 11.459V7.91732L8.21036 5.84969C8.20398 5.77107 8.0694 3.90815 9.40602 2.45748C10.3998 1.38011 11.9036 0.833984 13.8749 0.833984H14.5832V2.83078L14.0137 2.94482C13.0433 3.1389 12.3683 3.52069 12.007 4.08098C11.8185 4.38283 11.7116 4.72843 11.6968 5.08398H13.8749C14.0628 5.08398 14.2429 5.15861 14.3758 5.29145C14.5086 5.42429 14.5832 5.60446 14.5832 5.79232V10.7507C14.5832 11.5319 13.9479 12.1673 13.1666 12.1673Z" fill="#0A72AD" />
+                                                    </svg>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="ps-40 max-lg:pt-24 max-md:pt-6 max-lg:ps-0 max-lg:text-center">
+                                        <h2 className="font-semibold text-[32px] leading-10 max-md:leading-10 text-white max-md:text-xxxl max-sm:text-2xl">
+                                            What we have done & what our Customers say
+                                        </h2>
+                                        <div className="max-sm:h-[150px] h-24 flex overflow-y-scroll mt-4 max-md:mt-2 max-lg:mb-9">
+                                            <p className="font-medium text-lg max-lg:text-base leading-7 text-gray-50">
+                                                We are here to help you build an excellent build. With us, nothing is impossible. See what we have done and what our customers have to say about our performance.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </Slider>
+                        <div className="flex absolute w-full bottom-[60px] right-0 px-16 justify-end gap-4 max-lg:bottom-0 max-lg:justify-center pb-5">
+                            <button
+                                onClick={handlePrev}
+                                className="prev w-10 h-10 flex items-center justify-center group/btn transition-all duration-300 hover:bg-blue"
+                            >
+                                <svg width="25" height="17" viewBox="0 0 25 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.19559 9.68124L9.42967 13.914L9.42972 13.914C9.65143 14.1357 9.77599 14.4364 9.77599 14.75C9.77599 15.0635 9.65143 15.3642 9.42972 15.586C9.208 15.8077 8.9073 15.9322 8.59375 15.9322C8.2802 15.9322 7.9795 15.8077 7.75778 15.586L1.50814 9.33631C1.39813 9.22659 1.31086 9.09623 1.25131 8.95272C1.19176 8.80921 1.1611 8.65537 1.1611 8.49999C1.1611 8.34461 1.19176 8.19077 1.25131 8.04726C1.31086 7.90375 1.39813 7.77339 1.50814 7.66367L7.75778 1.41402C7.9795 1.19231 8.2802 1.06775 8.59375 1.06775C8.9073 1.06775 9.208 1.19231 9.42972 1.41402C9.65143 1.63574 9.77599 1.93644 9.77599 2.24999C9.77599 2.56354 9.65143 2.86425 9.42972 3.08596L9.42967 3.086L5.19559 7.31874L22.6562 7.31874C22.9695 7.31874 23.27 7.44319 23.4915 7.66472L23.2098 7.94642L23.4915 7.66472C23.713 7.88625 23.8375 8.1867 23.8375 8.49999C23.8375 8.81328 23.713 9.11373 23.4915 9.33526C23.27 9.55679 22.9695 9.68124 22.6562 9.68124H5.19559Z" fill="white" stroke="white" strokeWidth="0.8" />
+                                </svg>
+
+                            </button>
+                            <button
+                                onClick={handleNext}
+                                className="next w-10 h-10 flex items-center justify-center group/btn transition-all duration-300 hover:bg-blue"
+                            >
+                                <svg width="25" height="17" viewBox="0 0 25 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19.8044 9.68124L15.5703 13.914L15.5703 13.914C15.3486 14.1357 15.224 14.4364 15.224 14.75C15.224 15.0635 15.3486 15.3642 15.5703 15.586C15.792 15.8077 16.0927 15.9322 16.4062 15.9322C16.7198 15.9322 17.0205 15.8077 17.2422 15.586L23.4919 9.33631C23.6019 9.22659 23.6891 9.09623 23.7487 8.95272C23.8082 8.80921 23.8389 8.65537 23.8389 8.49999C23.8389 8.34461 23.8082 8.19077 23.7487 8.04726C23.6891 7.90375 23.6019 7.77339 23.4919 7.66367L17.2422 1.41402C17.0205 1.19231 16.7198 1.06775 16.4062 1.06775C16.0927 1.06775 15.792 1.19231 15.5703 1.41402C15.3486 1.63574 15.224 1.93644 15.224 2.24999C15.224 2.56354 15.3486 2.86425 15.5703 3.08596L15.5703 3.086L19.8044 7.31874L2.34375 7.31874C2.03046 7.31874 1.73001 7.44319 1.50848 7.66472L1.79018 7.94642L1.50848 7.66472C1.28695 7.88625 1.1625 8.1867 1.1625 8.49999C1.1625 8.81328 1.28695 9.11373 1.50848 9.33526C1.73001 9.55679 2.03046 9.68124 2.34375 9.68124H19.8044Z" fill="white" stroke="white" strokeWidth="0.8" />
+                                </svg>
+
+                            </button>
                         </div>
+                    </div>
                 </div>
-                <div className='max-w-xxl mx-auto px-4 pb-20 pt-[420px] max-sm:pb-10 max-md:pt-80 max-sm:pt-[320px]'>
+                <div className='max-w-xxl mx-auto px-4 pb-20 pt-[420px] max-lg:pb-14 max-sm:pb-10 max-md:pt-80 max-sm:pt-[320px]'>
                     <div className='flex flex-wrap flex-row -mx-3 justify-between'>
                         <div className='w-full md:w-6/12 px-4 max-sm:text-center'>
                             <div>

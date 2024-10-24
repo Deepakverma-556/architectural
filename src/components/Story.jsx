@@ -24,7 +24,7 @@ const Story = () => {
                     </div>
                     <div className='w-full lg:w-1/2 px-4 max-lg:pt-8'>
                         <div className='max-lg:flex max-lg:justify-center border-[15px] border-white shadow-[0px_10px_15px_0px] shadow-[#9797971F] max-lg:max-w-[500px] max-lg:max-h-[413px] mx-auto'>
-                            <img src={Image1} alt="building-image" className="" />
+                            <img src={Image1} alt="building-image" className="lg:pl-1" />
                         </div>
                     </div>
                 </div>

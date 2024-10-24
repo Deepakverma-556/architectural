@@ -8,3 +8,7 @@ html,
 body {
     scroll-behavior: smooth;
 }
+.brand .slick-track{
+    display: flex;
+    align-items: center;
+}

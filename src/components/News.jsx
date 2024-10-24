@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Image1 from "../assets/images/sec-7-1-img (1).webp";
 import Image2 from "../assets/images/sec-7-2-img.webp";
 import Image3 from "../assets/images/sec-7-3-img.webp";
@@ -40,18 +40,18 @@ const News = () => {
                 </div>
                 <div className="flex flex-wrap flex-row -mx-3 pt-9 max-sm:pt-1 justify-center">
                     {NEWS.map((obj, index) => (
-                        <div key={index} className="w-full sm:w-1/2 lg:w-1/3 px-4 pt-6 animate__animated animate__backInUp animate__delay-2s">
+                        <div key={index} className="w-full sm:w-1/2 lg:w-1/3 px-4 pt-6">
                             <div className="">
                                 <div className="overflow-hidden border-[15px] border-white shadow-[0px_10px_15px_0px] shadow-[#97979714] w-full object-cover">
                                     <img src={obj.img} alt={obj.title} className="object-cover h-[257px] max-lg:h-[300px] max-md:h-[257px] w-full" />
                                 </div>
-                                <div className="flex gap-4 items-center pr-10 py-4 max-sm:py-2 max-sm:text-center max-sm:pl-5 max-sm:gap-1">
+                                <div className="flex gap-4 items-center pr-10 py-4 max-sm:py-2 max-sm:gap-1">
                                     <p className="flex flex-col items-center text-xxxl text-dark font-semibold max-sm:text-lg">
                                         {obj.date} <span className="text-sm font-semibold">{obj.title}</span>
                                     </p>
                                     <p className="font-semibold text-base leading-6 text-dark">{obj.title2}</p>
                                 </div>
-                                <p className="text-lg leading-7 text-gray max-lg:text-base pr-5 max-sm:pr-0 max-sm:text-center">{obj.para} <span className="text-blue cursor-pointer">{obj.span}</span></p>
+                                <p className="text-lg leading-7 text-gray max-lg:text-base pr-5 ">{obj.para} <span className="text-blue cursor-pointer">{obj.span}</span></p>
                             </div>
                         </div>
                     ))}

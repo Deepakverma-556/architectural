@@ -18,9 +18,10 @@ const Header = () => {
     };
   }, [open]);
   return (
-    <section className="bg-gradient-to-r from-[#474747] to-[#222222] font-poppins pt-12 max-lg:pt-8 max-md:pt-6 max-sm:pt-3 min-h-screen overflow-hidden">
+    <div className="bg-gradient-to-br from-[#474747] from-0% to-[#222222] to-40%">
+    <section className="max-w-[1440px] mx-auto font-poppins pt-12 max-lg:pt-8 max-md:pt-6 max-sm:pt-3 overflow-hidden">
       <nav>
-        <div className="max-w-xxl mx-auto px-4 pb-9 max-lg:pb-6">
+        <div className="max-w-xxl mx-auto px-4 pb-12 max-lg:pb-6">
           <div className="w-full flex justify-between items-center">
             <div>
               <a href="" className="font-medium text-lg max-lg:text-base max-sm:text-sm leading-7 text-white">
@@ -30,11 +31,11 @@ const Header = () => {
                 </span>
               </a>
             </div>
-            <ul className="flex items-center gap-14 max-lg:hidden">
+            <ul className="flex items-center gap-14 max-lg:gap-7 max-md:hidden">
               <li>
                 <a
                   href="#works"
-                  className="font-medium text-lg leading-7 relative group text-gray-50"
+                  className="font-medium text-lg max-lg:text-base leading-7 relative group text-gray-50"
                 >
                   Home
                   <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
@@ -43,7 +44,7 @@ const Header = () => {
               <li>
                 <a
                   href="#term"
-                  className="font-medium text-lg leading-7 relative group text-gray-50"
+                  className="font-medium text-lg max-lg:text-base leading-7 relative group text-gray-50"
                 >
                   Services
                   <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
@@ -52,7 +53,7 @@ const Header = () => {
               <li>
                 <a
                   href="#about"
-                  className="font-medium text-lg leading-7 relative group text-gray-50 text-nowrap"
+                  className="font-medium text-lg max-lg:text-base leading-7 relative group text-gray-50 text-nowrap"
                 >
                   Find a Team
                   <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
@@ -61,7 +62,7 @@ const Header = () => {
               <li>
                 <a
                   href="#privacy"
-                  className="font-medium text-lg leading-7 relative group text-gray-50"
+                  className="font-medium text-lg max-lg:text-base leading-7 relative group text-gray-50"
                 >
                   About
                   <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
@@ -70,7 +71,7 @@ const Header = () => {
               <li>
                 <a
                   href="#license"
-                  className="font-medium text-lg leading-7 relative group text-gray-50"
+                  className="font-medium text-lg max-lg:text-base leading-7 relative group text-gray-50"
                 >
                   Articals
                   <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
@@ -79,7 +80,7 @@ const Header = () => {
               <li>
                 <a
                   href="#documentation"
-                  className="font-medium text-lg leading-7 relative group text-gray-50"
+                  className="font-medium text-lg max-lg:text-base leading-7 relative group text-gray-50"
                 >
                   Portfolio
                   <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
@@ -88,7 +89,7 @@ const Header = () => {
               <li>
                 <a
                   href="#about"
-                  className="font-medium text-lg leading-7 relative group text-gray-50 text-nowrap"
+                  className="font-medium text-lg max-lg:text-base leading-7 relative group text-gray-50 text-nowrap"
                 >
                   Contact-us
                   <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
@@ -96,7 +97,7 @@ const Header = () => {
               </li>
             </ul>
             <div
-              className="lg:hidden text-white z-30 text-4xl max-sm:text-3xl font-bold cursor-pointer"
+              className="md:hidden text-white z-30 text-4xl max-sm:text-3xl font-bold cursor-pointer"
               onClick={() => setOpen(!open)}
             >
               {open ? "✕" : "☰"}
@@ -106,7 +107,7 @@ const Header = () => {
             className={`w-full h-full bg-black transition-all duration-500 left-0 lg:-top-full z-20 fixed flex justify-center items-center ${open ? "top-0 left-0" : "-top-full"
               }`}
           >
-            <ul className="flex flex-col justify-center items-center gap-14 max-lg:gap-8">
+            <ul className="flex flex-col justify-center items-center gap-14 max-lg:gap-8 max-md:gap-5">
               <li>
                 <a
                   onClick={() => setOpen(false)}
@@ -114,7 +115,7 @@ const Header = () => {
                   className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   Home
-                  <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  
                 </a>
               </li>
               <li>
@@ -124,7 +125,7 @@ const Header = () => {
                   className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   Services
-                  <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  
                 </a>
               </li>
               <li>
@@ -134,7 +135,7 @@ const Header = () => {
                   className="font-medium text-lg leading-7 relative group text-gray-50 text-nowrap"
                 >
                   Find a Team
-                  <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  
                 </a>
               </li>
               <li>
@@ -144,7 +145,7 @@ const Header = () => {
                   className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   About
-                  <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  
                 </a>
               </li>
               <li>
@@ -154,7 +155,7 @@ const Header = () => {
                   className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   Articals
-                  <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  
                 </a>
               </li>
               <li>
@@ -164,7 +165,7 @@ const Header = () => {
                   className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   Portfolio
-                  <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  
                 </a>
               </li>
               <li>
@@ -174,7 +175,7 @@ const Header = () => {
                   className="font-medium text-lg leading-7 relative group text-gray-50 text-nowrap"
                 >
                   Contact-us
-                  <div className="bg-gray-50 h-[1.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
+                  
                 </a>
               </li>
             </ul>
@@ -182,7 +183,7 @@ const Header = () => {
         </div>
       </nav>
       <div className="max-w-xxl mx-auto px-4 relative lg:pb-[52px]">
-        <div className="bg-home max-lg:hidden w-full bg-cover bg-top absolute -right-60 h-full max-w-[698px] max-h-[741px]"></div>
+        <div className="bg-home max-lg:hidden w-full bg-cover bg-top absolute -right-64 h-full max-w-[698px] max-h-[741px]"></div>
         <div className="">
           <h2 className=" font-medium text-6xl max-lg:leading-tight max-lg:text-5xl max-md:text-4xl max-sm:text-[32px] leading-xxl text-white lg:max-w-[654px]">
             We Provide Architectural design and Construction
@@ -222,7 +223,7 @@ const Header = () => {
             </p>
           </div>
         </div>
-        <div className="lg:hidden max-w-96 mx-auto max-lg:pt-6">
+        <div className="lg:hidden max-w-96 max-lg:pt-6">
           <img src={home} alt="sec-1-bg" />
         </div>
       </div>
@@ -296,11 +297,12 @@ const Header = () => {
             </div>
           </div>
         </div>
+        </div>
         <div className="flex lg:hidden max-sm:py-5 max-sm:px-4 py-9 px-8 bg-gradient-to-r from-[#399fd8] via-[#0775b4] to-[#003756]">
           <div className="flex flex-wrap w-full items-center justify-between">
             <div className="w-1/2 md:w-2/12">
               <p className="font-medium text-base max-md:text-sm leading-3 text-white">
-                General <br />
+                General <br /><br />
                 <span className="font-semibold text-2xl max-lg:text-xxl max-md:text-xl leading-9">
                   Project
                 </span>
@@ -342,8 +344,8 @@ const Header = () => {
           </div>
 
         </div>
+      </section>
       </div>
-    </section>
   );
 };
 

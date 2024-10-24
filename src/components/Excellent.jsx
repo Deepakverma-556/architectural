@@ -33,7 +33,7 @@ const Excellent = () => {
                         Check out our best service you can possibly order in building your company and don't forget to ask via our email or our customer service if you are interested in using our services.
                     </p>
                 </div>
-                <div className="flex flex-wrap flex-row -mx-3 pt-20 max-lg:pt-0 max-sm:pt-0 justify-center ">
+                <div className="flex flex-wrap flex-row -mx-3 pt-10 max-lg:pt-0 max-sm:pt-0 justify-center ">
                     {CARDS.map((obj, index) => (
                         <div key={index} className="w-full sm:w-1/2 lg:w-1/3 px-6 pt-12 max-sm:pt-8 max-sm:text-center">
                             <div className="group">
@@ -44,7 +44,7 @@ const Excellent = () => {
                                         className=" transition-transform  duration-300 group-hover:scale-[1.04] object-cover h-[257px] w-full"
                                     />
                                 </div>
-                                <h3 className="font-semibold text-xxxl leading-10 pt-9 pb-5  max-lg:py-7 max-md:py-5 max-sm:py-5 max-lg:text-2xl text-dark">
+                                <h3 className="font-semibold text-xxxl leading-10 pt-9 pb-5 max-sm:pt-7 max-sm:pb-3 max-lg:text-2xl text-dark">
                                     {obj.title}
                                 </h3>
                                 <p className="text-lg leading-7 text-gray max-lg:text-base font-medium">{obj.para}</p>
