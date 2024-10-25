@@ -38,7 +38,7 @@ const News = () => {
                         News & Update
                     </h2>
                 </div>
-                <div className="flex flex-wrap flex-row -mx-3 pt-9 max-sm:pt-1 justify-center">
+                <div className="flex flex-wrap flex-row -mx-3 pt-9 max-lg:pt-5 max-sm:pt-1 justify-center">
                     {NEWS.map((obj, index) => (
                         <div key={index} className="w-full sm:w-1/2 lg:w-1/3 px-4 pt-6">
                             <div className="">

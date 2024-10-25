@@ -3,7 +3,7 @@ import dianne from "../assets/images/dianne-russell.webp"
 
 const Meet = () => {
     return (
-        <section className="py-16 max-md:py-12 max-sm:py-10">
+        <section id="documentation" className="py-16 max-md:py-12 max-sm:py-10">
             <div className="max-w-xxl mx-auto px-4 w-full">
                 <div className="flex flex-wrap items-center justify-center">
                     <div className="w-full lg:w-1/2 px-3">

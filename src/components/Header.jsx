@@ -111,7 +111,7 @@ const Header = () => {
               <li>
                 <a
                   onClick={() => setOpen(false)}
-                  href="#"
+                  href="#works"
                   className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   Home
@@ -121,7 +121,7 @@ const Header = () => {
               <li>
                 <a
                   onClick={() => setOpen(false)}
-                  href="#"
+                  href="#term"
                   className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   Services
@@ -131,7 +131,7 @@ const Header = () => {
               <li>
                 <a
                   onClick={() => setOpen(false)}
-                  href="#"
+                  href="#privacy"
                   className="font-medium text-lg leading-7 relative group text-gray-50 text-nowrap"
                 >
                   Find a Team
@@ -141,7 +141,7 @@ const Header = () => {
               <li>
                 <a
                   onClick={() => setOpen(false)}
-                  href="#"
+                  href="#about"
                   className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   About
@@ -151,7 +151,7 @@ const Header = () => {
               <li>
                 <a
                   onClick={() => setOpen(false)}
-                  href="#"
+                  href="#license"
                   className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   Articals
@@ -161,7 +161,7 @@ const Header = () => {
               <li>
                 <a
                   onClick={() => setOpen(false)}
-                  href="#"
+                  href="#documentation"
                   className="font-medium text-lg leading-7 relative group text-gray-50"
                 >
                   Portfolio
@@ -171,7 +171,7 @@ const Header = () => {
               <li>
                 <a
                   onClick={() => setOpen(open)}
-                  href="#"
+                  href="#about"
                   className="font-medium text-lg leading-7 relative group text-gray-50 text-nowrap"
                 >
                   Contact-us
@@ -202,7 +202,7 @@ const Header = () => {
             <p className="font-bold text-4xl max-lg:text-3xl max-md:text-2xl leading-xl text-white">
               300<span className="text-dark-blue">+</span>
             </p>
-            <p className="max-w-24 font-semibold text-base max-md:text-sm leading-7 text-gray-50">
+            <p className="lg:max-w-24 font-semibold text-base max-md:text-sm leading-7 text-gray-50">
               Happy Client
             </p>
           </div>
@@ -210,7 +210,7 @@ const Header = () => {
             <p className="font-bold text-4xl max-lg:text-3xl max-md:text-2xl leading-xl text-white">
               900<span className="text-dark-blue">+</span>
             </p>
-            <p className="max-w-24 font-semibold text-base max-md:text-sm leading-7 text-gray-50">
+            <p className="lg:max-w-24 font-semibold text-base max-md:text-sm leading-7 text-gray-50">
               Amazing projects
             </p>
           </div>
@@ -218,7 +218,7 @@ const Header = () => {
             <p className="font-bold text-4xl max-lg:text-3xl max-md:text-2xl leading-xl text-white">
               20<span className="text-dark-blue">+</span>
             </p>
-            <p className="max-w-24 font-semibold text-base max-md:text-sm leading-7 text-gray-50">
+            <p className="lg:max-w-24 font-semibold text-base max-md:text-sm leading-7 text-gray-50">
               Awards Winning
             </p>
           </div>

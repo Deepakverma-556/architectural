@@ -11,7 +11,7 @@ const Brand = () => {
     var settings = {
         dots: false,
         infinite: true,
-        speed: 3000,
+        speed: 6000,
         slidesToShow: 5,
         slidesToScroll: 1,
         arrows: false,
@@ -44,32 +44,32 @@ const Brand = () => {
         ]
     };
     return (
-        <section className="py-14 max-lg:py-12 max-md:py-10 max-sm:py-8 brand">
+        <section className="py-14 max-lg:py-8 max-sm:py-6 brand">
             <div className="max-w-xxl px-4 mx-auto">
                 <Slider {...settings}>
                     <div>
                         <div className="flex justify-center">
-                            <img src={img1} alt="img1" className="max-w-[163px] w-full cursor-pointer" />
+                            <img src={img1} alt="img1" className="max-w-[163px] max-sm:max-w-[150px] w-full cursor-pointer" />
                         </div>
                     </div>
                     <div>
                         <div className="flex justify-center">
-                            <img src={img2} alt="img2" className="max-w-[143px] w-full cursor-pointer" />
+                            <img src={img2} alt="img2" className="max-w-[143px] max-sm:max-w-[130px] w-full cursor-pointer" />
                         </div>
                     </div>
                     <div>
                         <div className="flex justify-center">
-                            <img src={img3} alt="img3" className="max-w-[126px] w-full cursor-pointer" />
+                            <img src={img3} alt="img3" className="max-w-[126px] max-sm:max-w-[120px] w-full cursor-pointer" />
                         </div>
                     </div>
                     <div>
                         <div className="flex justify-center">
-                            <img src={img4} alt="img4" className="max-w-[146px] w-full cursor-pointer" />
+                            <img src={img4} alt="img4" className="max-w-[146px] max-sm:max-w-[130px] w-full cursor-pointer" />
                         </div>
                     </div>
                     <div>
                         <div className="flex justify-center">
-                            <img src={img5} alt="img5" className="max-w-[196px] w-full cursor-pointer" />
+                            <img src={img5} alt="img5" className="max-w-[196px] max-sm:max-w-[150px] w-full cursor-pointer" />
                         </div>
                     </div>
                     
