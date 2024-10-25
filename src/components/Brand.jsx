@@ -11,12 +11,12 @@ const Brand = () => {
     var settings = {
         dots: false,
         infinite: true,
-        speed: 6000,
         slidesToShow: 5,
         slidesToScroll: 1,
         arrows: false,
         autoplay: true,
-        autoplaySpeed: 1,
+        autoplaySpeed: 3000,
+        speed:3000,
         cssEase: 'linear',
         responsive: [
             {
